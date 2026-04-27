@@ -109,9 +109,15 @@ st.sidebar.markdown("**Nota:** I dati vengono caricati da file JSON strutturati 
 # Display principale
 st.header(f"📊 {tematica_data.get('tematica', tematica)}")
 
-progetti_italia = len(tematica_data.get('progetti', {}).get('italia', []))
-progetti_europa = len(tematica_data.get('progetti', {}).get('europa', []))
-progetti_mondo = len(tematica_data.get('progetti', {}).get('mondo', []))
+# Legge i numeri reali totali dalle statistiche. Se non esistono, conta i progetti nella lista.
+progetti_italia = tematica_data.get('statistiche', {}).get('italia', len(tematica_data.get('progetti', {}).get('italia', [])))
+progetti_europa = tematica_data.get('statistiche', {}).get('europa', len(tematica_data.get('progetti', {}).get('europa', [])))
+progetti_mondo = tematica_data.get('statistiche', {}).get('mondo', len(tematica_data.get('progetti', {}).get('mondo', [])))
+
+# Formatta i numeri con il punto per le migliaia (es. 1.800) per renderli più leggibili
+if isinstance(progetti_italia, int): progetti_italia = f"{progetti_italia:,}".replace(',', '.')
+if isinstance(progetti_europa, int): progetti_europa = f"{progetti_europa:,}".replace(',', '.')
+if isinstance(progetti_mondo, int): progetti_mondo = f"{progetti_mondo:,}".replace(',', '.')
 
 # Metriche
 col1, col2, col3 = st.columns(3)
