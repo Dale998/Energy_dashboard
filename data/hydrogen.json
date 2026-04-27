@@ -1,131 +1,48 @@
 {
   "tematica": "Idrogeno",
-  "descrizione": "Progetti e normative relative alla produzione e utilizzo di idrogeno verde",
+  "descrizione": "Progetti di idrogeno verde e low-carbon, Hydrogen Valleys e infrastrutture di trasporto in Italia, Europa e Mondo.",
+  "ultima_modifica": "2026-04-27",
+  "statistiche": {
+    "italia": 54,
+    "europa": 412,
+    "mondo": 1340
+  },
   "progetti": {
     "italia": [
-      {
-        "id": "H2-IT-001",
-        "nome": "H2 Puglia",
-        "regione": "Puglia",
-        "capacita_mw": 50,
-        "stato": "in pianificazione",
-        "descrizione": "Progetto di produzione di idrogeno verde tramite elettrolizzatori",
-        "investimento_milioni_euro": 150,
-        "luogo": "Taranto",
-        "lat": 40.4669,
-        "lon": 17.2129,
-        "url": "https://example.com/h2-puglia",
-        "data_aggiornamento": "2025-04-25"
-      },
-      {
-        "id": "H2-IT-002",
-        "nome": "Progetto Idrogeno Piemonte",
-        "regione": "Piemonte",
-        "capacita_mw": 25,
-        "stato": "in pianificazione",
-        "descrizione": "Nuovo impianto di elettrolisi per produzione idrogeno verde",
-        "investimento_milioni_euro": 75,
-        "luogo": "Torino",
-        "lat": 45.0703,
-        "lon": 7.6869,
-        "url": "https://www.regione.piemonte.it/web/temi/energia/idrogeno",
-        "data_aggiornamento": "2025-04-25"
-      },
-      {
-        "id": "IDR-IT-EXTRA-1",
-        "nome": "Progetto Idrogeno Italia 1",
-        "regione": "Italia",
-        "capacita_mw": 10,
-        "stato": "attivo",
-        "descrizione": "Progetto di idrogeno in Italia",
-        "investimento_milioni_euro": 20,
-        "luogo": "Roma",
-        "lat": 41.9028,
-        "lon": 12.4964,
-        "url": "https://www.gse.it/",
-        "data_aggiornamento": "2026-04-25T14:54:20.813551"
-      }
+      { "id": "H2-IT-01", "nome": "H2iseO (Ferrovie Nord Milano)", "regione": "Lombardia", "capacita_mw": 10, "stato": "attivo", "descrizione": "La prima Hydrogen Valley italiana: treni a idrogeno verde in Valcamonica.", "luogo": "Iseo (BS)", "lat": 45.6608, "lon": 10.0531, "url": "https://www.fnmgroup.it/h2iseo" },
+      { "id": "H2-IT-02", "nome": "Puglia Green Hydrogen Valley", "regione": "Puglia", "capacita_mw": 260, "stato": "progetto", "descrizione": "Polo Edison-Snam-Saipem per decarbonizzare l'industria siderurgica e petrolchimica pugliese.", "luogo": "Brindisi/Taranto", "lat": 40.6322, "lon": 17.9361, "url": "https://www.snam.it" },
+      { "id": "H2-IT-03", "nome": "Dalmine Zero Emissions", "regione": "Lombardia", "capacita_mw": 20, "stato": "attivo", "descrizione": "Snam e Tenaris per l'uso di idrogeno verde nella produzione di tubi d'acciaio.", "luogo": "Dalmine (BG)", "lat": 45.6483, "lon": 9.6017, "url": "https://www.tenaris.com" },
+      { "id": "H2-IT-04", "nome": "South Italy Green Hydrogen", "regione": "Sardegna", "capacita_mw": 100, "stato": "progetto", "descrizione": "Progetto Saras-Enel per l'introduzione di idrogeno verde nella raffineria di Sarroch.", "luogo": "Sarroch (CA)", "lat": 39.0833, "lon": 9.0167, "url": "https://www.saras.it" },
+      { "id": "H2-IT-05", "nome": "Hydrogen Valley Mantova", "regione": "Lombardia", "capacita_mw": 5, "stato": "attivo", "descrizione": "Produzione H2 verde da solare per le reti di teleriscaldamento locali e industria cartaria.", "luogo": "Mantova", "lat": 45.1564, "lon": 10.7914, "url": "https://www.gruppotea.it" },
+      { "id": "H2-IT-06", "nome": "NextChem Waste-to-Hydrogen", "regione": "Veneto", "capacita_mw": 15, "stato": "progetto", "descrizione": "Conversione di scarti plastici non riciclabili in idrogeno circolare per Eni.", "luogo": "Porto Marghera (VE)", "lat": 45.4544, "lon": 12.2478, "url": "https://demoplants21.best-research.eu/projects/info/3868/8JBaZy" },
+      { "id": "H2-IT-07", "nome": "Idrogeno Verde Eni", "regione": "Puglia", "capacita_mw": 20, "stato": "progetto", "descrizione": "Installazione di elettrolizzatori alimentati da fotovoltaico nella bioraffineria Eni.", "luogo": "Taranto", "lat": 40.4700, "lon": 17.2433, "url": "https://www.eni.com" },
+      { "id": "H2-IT-08", "nome": "De Nora Gigafactory", "regione": "Lombardia", "capacita_mw": 0, "stato": "costruzione", "descrizione": "Progetto IPCEI: polo manifatturiero italiano per la costruzione di elettrolizzatori.", "luogo": "Cernusco s/N (MI)", "lat": 45.5258, "lon": 9.3308, "url": "https://www.denora.com" },
+      { "id": "H2-IT-09", "nome": "IdrogeMO", "regione": "Emilia-Romagna", "capacita_mw": 6, "stato": "progetto", "descrizione": "Hera e Snam per una Hydrogen Valley modenese focalizzata sulla mobilità pubblica.", "luogo": "Modena", "lat": 44.6478, "lon": 10.9254, "url": "https://www.gruppohera.it" },
+      { "id": "H2-IT-10", "nome": "Hydrogen Innovation Center", "regione": "Emilia-Romagna", "capacita_mw": 0, "stato": "ricerca", "descrizione": "Centro di ricerca di Snam con l'Università UNIMORE per il testing delle infrastrutture H2.", "luogo": "Modena", "lat": 44.6295, "lon": 10.9493, "url": "https://www.snam.it" }
     ],
     "europa": [
-      {
-        "id": "H2-EU-001",
-        "nome": "HyLand",
-        "paese": "Germania",
-        "capacita_mw": 100,
-        "stato": "in costruzione",
-        "descrizione": "Progetto europeo di produzione di idrogeno verde",
-        "investimento_milioni_euro": 400,
-        "luogo": "Nordrhein-Westfalia",
-        "lat": 51.4556,
-        "lon": 7.0116,
-        "url": "https://example.com/hyland",
-        "data_aggiornamento": "2025-04-25"
-      }
+      { "id": "H2-EU-01", "nome": "H2 Green Steel", "paese": "Svezia", "capacita_mw": 700, "stato": "costruzione", "descrizione": "Impianto rivoluzionario per acciaio verde senza fossili, alimentato da mega-elettrolizzatore.", "lat": 65.8256, "lon": 21.6886, "url": "https://www.h2greensteel.com" },
+      { "id": "H2-EU-02", "nome": "NortH2", "paese": "Paesi Bassi", "capacita_mw": 4000, "stato": "progetto", "descrizione": "Gigantesco progetto eolico offshore nel Mare del Nord dedicato alla produzione di idrogeno.", "lat": 53.4386, "lon": 6.8355, "url": "https://www.north2.eu" },
+      { "id": "H2-EU-03", "nome": "Holland Hydrogen I", "paese": "Paesi Bassi", "capacita_mw": 200, "stato": "costruzione", "descrizione": "Il più grande elettrolizzatore rinnovabile d'Europa, costruito da Shell a Rotterdam.", "lat": 51.9492, "lon": 4.1481, "url": "https://www.shell.nl" },
+      { "id": "H2-EU-04", "nome": "HyBRIT", "paese": "Svezia", "capacita_mw": 5, "stato": "attivo", "descrizione": "Impianto pilota di SSAB, LKAB e Vattenfall per l'acciaio sponge iron a idrogeno.", "lat": 65.5848, "lon": 22.1567, "url": "https://www.hybritdevelopment.se" },
+      { "id": "H2-EU-05", "nome": "REFHYNE", "paese": "Germania", "capacita_mw": 10, "stato": "attivo", "descrizione": "Elettrolizzatore PEM nella raffineria Shell di Wesseling, co-finanziato dall'UE.", "lat": 50.8242, "lon": 6.9744, "url": "https://refhyne.eu" },
+      { "id": "H2-EU-06", "nome": "Puertollano Green H2", "paese": "Spagna", "capacita_mw": 20, "stato": "attivo", "descrizione": "Impianto Iberdrola per produrre ammoniaca verde per fertilizzanti.", "lat": 38.6871, "lon": -4.1073, "url": "https://www.iberdrola.com" },
+      { "id": "H2-EU-07", "nome": "HySynergy", "paese": "Danimarca", "capacita_mw": 20, "stato": "attivo", "descrizione": "Polo H2 per la raffineria Crossbridge, con recupero del calore per la rete cittadina.", "lat": 55.5606, "lon": 9.7533, "url": "https://www.everfuel.com" },
+      { "id": "H2-EU-08", "nome": "GreenH2Atlantic", "paese": "Portogallo", "capacita_mw": 100, "stato": "progetto", "descrizione": "Sviluppo di un elettrolizzatore innovativo in una ex centrale a carbone a Sines.", "lat": 37.9564, "lon": -8.8694, "url": "https://greenh2atlantic.com" },
+      { "id": "H2-EU-09", "nome": "Djewels", "paese": "Paesi Bassi", "capacita_mw": 20, "stato": "costruzione", "descrizione": "Produzione di metanolo verde utilizzando H2 rinnovabile e CO2 biogenica.", "lat": 53.3278, "lon": 6.9419, "url": "https://www.nouryon.com" },
+      { "id": "H2-EU-10", "nome": "H2Sines", "paese": "Portogallo", "capacita_mw": 1000, "stato": "progetto", "descrizione": "Polo logistico e produttivo per l'esportazione di idrogeno verde verso il Nord Europa.", "lat": 37.9520, "lon": -8.8820, "url": "https://www.engie.com" }
     ],
     "mondo": [
-      {
-        "id": "H2-WORLD-001",
-        "nome": "Saudi Green Initiative",
-        "paese": "Arabia Saudita",
-        "capacita_mw": 500,
-        "stato": "attivo",
-        "descrizione": "Grande progetto di idrogeno verde in Medio Oriente",
-        "investimento_milioni_euro": 5000,
-        "luogo": "Neom",
-        "lat": 26.1551,
-        "lon": 34.8516,
-        "url": "https://example.com/saudi-h2",
-        "data_aggiornamento": "2025-04-25"
-      }
+      { "id": "H2-W-01", "nome": "NEOM Green Hydrogen", "paese": "Arabia Saudita", "capacita_mw": 2000, "stato": "costruzione", "descrizione": "Mega-progetto da 8,4 miliardi $ per esportare ammoniaca verde su scala globale.", "lat": 28.0833, "lon": 34.7833, "url": "https://neom.com" },
+      { "id": "H2-W-02", "nome": "Asian Renewable Energy Hub", "paese": "Australia", "capacita_mw": 14000, "stato": "progetto", "descrizione": "Colossale parco solare/eolico (26 GW) destinato per metà all'export di idrogeno.", "lat": -20.2500, "lon": 121.2500, "url": "https://asianrehub.com" },
+      { "id": "H2-W-03", "nome": "Sinopec Kuqa", "paese": "Cina", "capacita_mw": 260, "stato": "attivo", "descrizione": "Il più grande impianto solare-idrogeno operativo al mondo, nel deserto dello Xinjiang.", "lat": 41.7167, "lon": 82.9333, "url": "https://www.sinopecgroup.com" },
+      { "id": "H2-W-04", "nome": "Advanced Clean Energy Storage", "paese": "USA", "capacita_mw": 220, "stato": "costruzione", "descrizione": "Stoccaggio in caverne di sale nello Utah per accumulare H2 verde inter-stagionale.", "lat": 39.5000, "lon": -112.5500, "url": "https://aces-delta.com" },
+      { "id": "H2-W-05", "nome": "Hydrogen City", "paese": "USA", "capacita_mw": 60000, "stato": "progetto", "descrizione": "Progetto mastodontico in Texas basato su eolico solare e stoccaggio sotterraneo.", "lat": 27.7000, "lon": -98.0500, "url": "https://www.gti.energy" },
+      { "id": "H2-W-06", "nome": "Pecém Green Hydrogen Hub", "paese": "Brasile", "capacita_mw": 2000, "stato": "progetto", "descrizione": "Hub strategico nel nord-est del Brasile per esportare H2 verde in Europa.", "lat": -3.5333, "lon": -38.8000, "url": "https://www.complexodopecem.com.br" },
+      { "id": "H2-W-07", "nome": "Aman Project", "paese": "Mauritania", "capacita_mw": 15000, "stato": "progetto", "descrizione": "Sviluppo CWP Global per generare eolico e solare nel deserto per la filiera H2.", "lat": 20.5000, "lon": -13.0000, "url": "https://cwp.global" },
+      { "id": "H2-W-08", "nome": "Enegix Base One", "paese": "Brasile", "capacita_mw": 3400, "stato": "progetto", "descrizione": "Sfrutta l'energia eolica e solare dello stato di Ceará per H2 a basso costo.", "lat": -3.7319, "lon": -38.5267, "url": "https://enegix.energy" },
+      { "id": "H2-W-09", "nome": "Ordos Green Hydrogen", "paese": "Cina", "capacita_mw": 390, "stato": "costruzione", "descrizione": "Progetto Sinopec in Mongolia Interna per sostituire H2 grigio nell'industria del carbone.", "lat": 39.6000, "lon": 109.8000, "url": "https://www.sinopecgroup.com" },
+      { "id": "H2-W-10", "nome": "Haru Oni", "paese": "Cile", "capacita_mw": 1, "stato": "attivo", "descrizione": "Impianto pionieristico Porsche/Siemens per creare e-fuels (benzina sintetica) dall'H2 eolico.", "lat": -53.1625, "lon": -70.9081, "url": "https://www.hifglobal.com" }
     ]
-  },
-  "normative": {
-    "italia": [
-      {
-        "id": "NORM-IT-H2-001",
-        "titolo": "Piano Nazionale di Ripresa e Resilienza - Capitolo Idrogeno",
-        "tipo": "Piano Nazionale",
-        "anno": 2021,
-        "descrizione": "PNRR con investimenti dedicati all'idrogeno verde",
-        "punti_principali": [
-          "Investimenti per 3.6 miliardi di euro in idrogeno verde",
-          "Sviluppo di 5 gigafactory di batterie",
-          "Supporto a progetti dimostrativi di idrogeno"
-        ],
-        "url": "https://www.mef.gov.it/en/focus/The-Recovery-Fund/",
-        "data_aggiornamento": "2025-04-25"
-      }
-    ],
-    "europa": [
-      {
-        "id": "NORM-EU-H2-001",
-        "titolo": "Direttiva (UE) 2023/2413 - Hydrogen and Decarbonised Gas Market",
-        "tipo": "Direttiva UE",
-        "anno": 2023,
-        "descrizione": "Regolamento del mercato dell'idrogeno e dei gas decarbonizzati",
-        "punti_principali": [
-          "Definizione di idrogeno rinnovabile e decarbonizzato",
-          "Quadro normativo per la certificazione dell'idrogeno",
-          "Accesso alla rete di trasporto del gas",
-          "Requisiti di sostenibilità"
-        ],
-        "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32023L2413",
-        "data_aggiornamento": "2025-04-25"
-      }
-    ]
-  },
-  "fonti_ufficiali": [
-    {
-      "nome": "Clean Hydrogen Partnership",
-      "url": "https://clean-hydrogen.europa.eu/",
-      "tipo": "Piattaforma europea",
-      "descrizione": "Centro di eccellenza europeo per l'idrogeno pulito"
-    },
-    {
-      "nome": "ENTSOG H2 Platform",
-      "url": "https://h2-project-visualisation-platform.entsog.eu/",
-      "tipo": "Piattaforma di visualizzazione",
-      "descrizione": "Database dei progetti di idrogeno europei"
-    }
-  ]
+  }
 }

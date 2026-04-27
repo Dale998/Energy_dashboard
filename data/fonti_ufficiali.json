@@ -42,6 +42,20 @@
       "tipo": "Ente Nazionale di Vigilanza (Italia)",
       "descrizione": "Vigilanza tecnica, controllo radiometrico e sicurezza nucleare sul territorio italiano.",
       "fonti_applicabili": ["Nucleare"]
+    },
+    {
+      "nome": "Hydrogen Council",
+      "url": "https://hydrogencouncil.com",
+      "tipo": "Coalizione Globale CEO",
+      "descrizione": "Dati globali su investimenti, deployment e maturità tecnologica del settore H2.",
+      "fonti_applicabili": ["Idrogeno"]
+    },
+    {
+      "nome": "Clean Hydrogen Partnership",
+      "url": "https://www.clean-hydrogen.europa.eu",
+      "tipo": "Partenariato Pubblico-Privato UE",
+      "descrizione": "Iniziativa UE per supportare ricerca, sviluppo tecnologico e progetti dimostrativi (Hydrogen Valleys).",
+      "fonti_applicabili": ["Idrogeno"]
     }
   ]
 }

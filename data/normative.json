@@ -123,6 +123,39 @@
       "url": "https://eur-lex.europa.eu/legal-content/IT/TXT/?uri=CELEX:32020R0852"
     },
     {
+      "id": "NORM-EU-H2-001",
+      "titolo": "Regolamenti Delegati RFNBO (2023/1184 e 2023/1185)",
+      "giurisdizione": "europa",
+      "anno": 2023,
+      "stato": "vigente",
+      "fonti_applicabili": ["Idrogeno"],
+      "descrizione": "Definiscono i criteri rigorosi per classificare l'idrogeno come rinnovabile (RFNBO).",
+      "punti_principali": ["Principio di addizionalità (nuovi impianti FER)", "Correlazione temporale (matching orario dal 2030)", "Correlazione geografica"],
+      "url": "https://eur-lex.europa.eu/legal-content/IT/TXT/?uri=CELEX:32023R1184"
+    },
+    {
+      "id": "NORM-EU-H2-002",
+      "titolo": "Pacchetto Gas-Idrogeno (2024)",
+      "giurisdizione": "europa",
+      "anno": 2024,
+      "stato": "vigente",
+      "fonti_applicabili": ["Idrogeno", "Biocarburanti e Biogas"],
+      "descrizione": "Primo vero quadro regolatorio europeo per la creazione del mercato e delle reti dell'idrogeno.",
+      "punti_principali": ["Regolazione infrastrutture (hydrogen networks)", "Separazione attività (unbundling)", "Accesso alle reti e tariffe"],
+      "url": "https://eur-lex.europa.eu/legal-content/IT/TXT/?uri=CELEX:32024L1788"
+    },
+    {
+      "id": "NORM-EU-H2-003",
+      "titolo": "Regolamento TEN-E (2022/869)",
+      "giurisdizione": "europa",
+      "anno": 2022,
+      "stato": "vigente",
+      "fonti_applicabili": ["Idrogeno", "Cogenerazione"],
+      "descrizione": "Supporto alle reti transeuropee dell'energia.",
+      "punti_principali": ["Infrastrutture H2 come Progetti di Interesse Comune (PCI)", "Accesso a finanziamenti UE e iter autorizzativi accelerati"],
+      "url": "https://eur-lex.europa.eu/legal-content/IT/TXT/?uri=CELEX:32022R0869"
+    },
+    {
       "id": "NORM-IT-001",
       "titolo": "D.Lgs. 9 gennaio 2026, n. 5",
       "giurisdizione": "italia",
@@ -217,6 +250,28 @@
       "descrizione": "Norme fondamentali di sicurezza contro i pericoli derivanti dalle radiazioni ionizzanti.",
       "punti_principali": ["Protezione lavoratori e popolazione", "Limiti di dose", "Vigilanza ISIN"],
       "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:2020-07-31;101"
+    },
+    {
+      "id": "NORM-IT-H2-001",
+      "titolo": "Strategia Nazionale Idrogeno & Missione 2 PNRR",
+      "giurisdizione": "italia",
+      "anno": 2023,
+      "stato": "attiva",
+      "fonti_applicabili": ["Idrogeno"],
+      "descrizione": "Piano italiano di sviluppo della filiera supportato dai fondi del PNRR.",
+      "punti_principali": ["Sviluppo Hydrogen Valleys (aree industriali dismesse)", "Decarbonizzazione settori hard-to-abate", "Incentivi per elettrolizzatori"],
+      "url": "https://www.mase.gov.it/portale/componente-2-m2c2-energia-rinnovabile-idrogeno-rete-e-mobilit%C3%A0-sostenibile"
+    },
+    {
+      "id": "NORM-IT-H2-002",
+      "titolo": "Regolazione Tecnica ARERA / SNAM",
+      "giurisdizione": "italia",
+      "anno": 2024,
+      "stato": "in evoluzione",
+      "fonti_applicabili": ["Idrogeno", "Biocarburanti e Biogas"],
+      "descrizione": "Normative tecniche per l'immissione e il trasporto di idrogeno nelle reti gas.",
+      "punti_principali": ["Regole di blending H2-Gas naturale", "Sperimentazioni su trasporto e distribuzione"],
+      "url": "https://www.arera.it/atti-e-provvedimenti/dettaglio/24/447-24"
     }
   ]
 }
