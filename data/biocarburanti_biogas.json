@@ -1,0 +1,132 @@
+{
+  "tematica": "Biocarburanti e Biogas",
+  "descrizione": "Progetti e normative relative a biocarburanti e biogas",
+  "progetti": {
+    "italia": [
+      {
+        "id": "BIO-IT-001",
+        "nome": "Impianto Biogas Lombardia",
+        "regione": "Lombardia",
+        "capacita_mw": 2,
+        "stato": "attivo",
+        "descrizione": "Impianto di biogas da rifiuti agricoli e organici",
+        "investimento_milioni_euro": 5,
+        "luogo": "Brescia",
+        "lat": 45.5416,
+        "lon": 10.2118,
+        "url": "https://example.com/biogas-lombardia",
+        "data_aggiornamento": "2025-04-25"
+      },
+      {
+        "id": "BIO-IT-EXTRA-1",
+        "nome": "Progetto Biocarburanti e Biogas Italia 1",
+        "regione": "Italia",
+        "capacita_mw": 10,
+        "stato": "attivo",
+        "descrizione": "Progetto di biocarburanti e biogas in Italia",
+        "investimento_milioni_euro": 20,
+        "luogo": "Roma",
+        "lat": 41.9028,
+        "lon": 12.4964,
+        "url": "https://www.gse.it/",
+        "data_aggiornamento": "2026-04-25T14:54:20.815415"
+      },
+      {
+        "id": "BIO-IT-EXTRA-2",
+        "nome": "Progetto Biocarburanti e Biogas Italia 2",
+        "regione": "Italia",
+        "capacita_mw": 15,
+        "stato": "attivo",
+        "descrizione": "Progetto di biocarburanti e biogas in Italia",
+        "investimento_milioni_euro": 30,
+        "luogo": "Roma",
+        "lat": 41.9028,
+        "lon": 12.4964,
+        "url": "https://www.gse.it/",
+        "data_aggiornamento": "2026-04-25T14:54:20.815424"
+      }
+    ],
+    "europa": [
+      {
+        "id": "BIO-EU-001",
+        "nome": "Bioenergy Valley Germania",
+        "paese": "Germania",
+        "capacita_mw": 500,
+        "stato": "attivo",
+        "descrizione": "La più grande valle dell'energia da biogas in Europa",
+        "investimento_milioni_euro": 2000,
+        "luogo": "Baviera",
+        "lat": 48.1351,
+        "lon": 11.582,
+        "url": "https://www.europeanbiogas.eu/country/germany/",
+        "data_aggiornamento": "2025-04-25"
+      }
+    ],
+    "mondo": [
+      {
+        "id": "BIO-WORLD-001",
+        "nome": "Progetto Biocarburanti Brasile",
+        "paese": "Brasile",
+        "capacita_mw": 5000,
+        "stato": "attivo",
+        "descrizione": "Vasta produzione di biocarburanti da canna da zucchero",
+        "investimento_milioni_euro": 10000,
+        "luogo": "San Paolo",
+        "lat": -23.5505,
+        "lon": -46.6333,
+        "url": "https://example.com/biocarburanti-brasile",
+        "data_aggiornamento": "2025-04-25"
+      }
+    ]
+  },
+  "normative": {
+    "italia": [
+      {
+        "id": "NORM-IT-BIO-001",
+        "titolo": "Decreto Ministeriale 5 luglio 2012 - Criteri di sostenibilità biocarburanti",
+        "tipo": "Decreto Ministeriale",
+        "anno": 2012,
+        "descrizione": "Criteri di sostenibilità e tracciabilità per biocarburanti in Italia",
+        "punti_principali": [
+          "Requisiti di sostenibilità per biocarburanti",
+          "Tracciabilità della filiera",
+          "Riduzione delle emissioni di gas serra",
+          "Certificazioni obbligatorie"
+        ],
+        "url": "https://www.normattiva.it/ricerca/biocarburanti",
+        "data_aggiornamento": "2025-04-25"
+      }
+    ],
+    "europa": [
+      {
+        "id": "NORM-EU-BIO-001",
+        "titolo": "Direttiva (UE) 2018/2001 - Energie rinnovabili",
+        "tipo": "Direttiva UE",
+        "anno": 2018,
+        "descrizione": "Quadro legislativo per l'energia rinnovabile inclusi biocarburanti",
+        "punti_principali": [
+          "Obiettivo del 42.5% di rinnovabili entro 2030",
+          "Inclusione di biogas e biocarburanti avanzati",
+          "Criteri di sostenibilità ambientale",
+          "Riduzione rischio di ILUC (Indirect Land Use Change)"
+        ],
+        "url": "https://eur-lex.europa.eu/legal-content/IT/TXT/?uri=CELEX:32018L2001",
+        "data_aggiornamento": "2025-04-25"
+      }
+    ]
+  },
+  "fonti_ufficiali": [
+    {
+      "nome": "European Biogas Association",
+      "url": "https://www.europeanbiogas.eu/",
+      "tipo": "Associazione europea",
+      "descrizione": "Associazione europea dei produttori di biogas"
+    },
+    {
+      "nome": "IRENA - Agenzia internazionale rinnovabili",
+      "url": "https://www.irena.org/",
+      "tipo": "Agenzia internazionale",
+      "descrizione": "Dati e statistiche su energie rinnovabili"
+    }
+  ]
+}

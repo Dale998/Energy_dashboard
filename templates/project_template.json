@@ -1,0 +1,15 @@
+{
+  "id": "PROJECT-TYPE-COUNTRY-###",
+  "nome": "Nome Progetto",
+  "paese_o_regione": "Nazione o Regione",
+  "capacita_mw": 0,
+  "stato": "pianificazione|in costruzione|attivo|dismesso",
+  "descrizione": "Descrizione dettagliata del progetto",
+  "investimento_milioni_euro": 0,
+  "luogo": "Città o area specifica",
+  "lat": 0.0,
+  "lon": 0.0,
+  "url": "https://...",
+  "data_aggiornamento": "YYYY-MM-DD",
+  "note": "Note aggiuntive"
+}

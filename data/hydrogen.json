@@ -1,0 +1,131 @@
+{
+  "tematica": "Idrogeno",
+  "descrizione": "Progetti e normative relative alla produzione e utilizzo di idrogeno verde",
+  "progetti": {
+    "italia": [
+      {
+        "id": "H2-IT-001",
+        "nome": "H2 Puglia",
+        "regione": "Puglia",
+        "capacita_mw": 50,
+        "stato": "in pianificazione",
+        "descrizione": "Progetto di produzione di idrogeno verde tramite elettrolizzatori",
+        "investimento_milioni_euro": 150,
+        "luogo": "Taranto",
+        "lat": 40.4669,
+        "lon": 17.2129,
+        "url": "https://example.com/h2-puglia",
+        "data_aggiornamento": "2025-04-25"
+      },
+      {
+        "id": "H2-IT-002",
+        "nome": "Progetto Idrogeno Piemonte",
+        "regione": "Piemonte",
+        "capacita_mw": 25,
+        "stato": "in pianificazione",
+        "descrizione": "Nuovo impianto di elettrolisi per produzione idrogeno verde",
+        "investimento_milioni_euro": 75,
+        "luogo": "Torino",
+        "lat": 45.0703,
+        "lon": 7.6869,
+        "url": "https://www.regione.piemonte.it/web/temi/energia/idrogeno",
+        "data_aggiornamento": "2025-04-25"
+      },
+      {
+        "id": "IDR-IT-EXTRA-1",
+        "nome": "Progetto Idrogeno Italia 1",
+        "regione": "Italia",
+        "capacita_mw": 10,
+        "stato": "attivo",
+        "descrizione": "Progetto di idrogeno in Italia",
+        "investimento_milioni_euro": 20,
+        "luogo": "Roma",
+        "lat": 41.9028,
+        "lon": 12.4964,
+        "url": "https://www.gse.it/",
+        "data_aggiornamento": "2026-04-25T14:54:20.813551"
+      }
+    ],
+    "europa": [
+      {
+        "id": "H2-EU-001",
+        "nome": "HyLand",
+        "paese": "Germania",
+        "capacita_mw": 100,
+        "stato": "in costruzione",
+        "descrizione": "Progetto europeo di produzione di idrogeno verde",
+        "investimento_milioni_euro": 400,
+        "luogo": "Nordrhein-Westfalia",
+        "lat": 51.4556,
+        "lon": 7.0116,
+        "url": "https://example.com/hyland",
+        "data_aggiornamento": "2025-04-25"
+      }
+    ],
+    "mondo": [
+      {
+        "id": "H2-WORLD-001",
+        "nome": "Saudi Green Initiative",
+        "paese": "Arabia Saudita",
+        "capacita_mw": 500,
+        "stato": "attivo",
+        "descrizione": "Grande progetto di idrogeno verde in Medio Oriente",
+        "investimento_milioni_euro": 5000,
+        "luogo": "Neom",
+        "lat": 26.1551,
+        "lon": 34.8516,
+        "url": "https://example.com/saudi-h2",
+        "data_aggiornamento": "2025-04-25"
+      }
+    ]
+  },
+  "normative": {
+    "italia": [
+      {
+        "id": "NORM-IT-H2-001",
+        "titolo": "Piano Nazionale di Ripresa e Resilienza - Capitolo Idrogeno",
+        "tipo": "Piano Nazionale",
+        "anno": 2021,
+        "descrizione": "PNRR con investimenti dedicati all'idrogeno verde",
+        "punti_principali": [
+          "Investimenti per 3.6 miliardi di euro in idrogeno verde",
+          "Sviluppo di 5 gigafactory di batterie",
+          "Supporto a progetti dimostrativi di idrogeno"
+        ],
+        "url": "https://www.mef.gov.it/en/focus/The-Recovery-Fund/",
+        "data_aggiornamento": "2025-04-25"
+      }
+    ],
+    "europa": [
+      {
+        "id": "NORM-EU-H2-001",
+        "titolo": "Direttiva (UE) 2023/2413 - Hydrogen and Decarbonised Gas Market",
+        "tipo": "Direttiva UE",
+        "anno": 2023,
+        "descrizione": "Regolamento del mercato dell'idrogeno e dei gas decarbonizzati",
+        "punti_principali": [
+          "Definizione di idrogeno rinnovabile e decarbonizzato",
+          "Quadro normativo per la certificazione dell'idrogeno",
+          "Accesso alla rete di trasporto del gas",
+          "Requisiti di sostenibilità"
+        ],
+        "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32023L2413",
+        "data_aggiornamento": "2025-04-25"
+      }
+    ]
+  },
+  "fonti_ufficiali": [
+    {
+      "nome": "Clean Hydrogen Partnership",
+      "url": "https://clean-hydrogen.europa.eu/",
+      "tipo": "Piattaforma europea",
+      "descrizione": "Centro di eccellenza europeo per l'idrogeno pulito"
+    },
+    {
+      "nome": "ENTSOG H2 Platform",
+      "url": "https://h2-project-visualisation-platform.entsog.eu/",
+      "tipo": "Piattaforma di visualizzazione",
+      "descrizione": "Database dei progetti di idrogeno europei"
+    }
+  ]
+}

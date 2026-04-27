@@ -1,0 +1,132 @@
+{
+  "tematica": "Data Center",
+  "descrizione": "Progetti e normative relative ai data center e infrastrutture digitali",
+  "progetti": {
+    "italia": [
+      {
+        "id": "DC-IT-001",
+        "nome": "Polo Digitale Torino",
+        "regione": "Piemonte",
+        "capacita_mw": 50,
+        "stato": "attivo",
+        "descrizione": "Data center sostenibile con raffreddamento a libera aria",
+        "investimento_milioni_euro": 200,
+        "luogo": "Torino",
+        "lat": 45.0707,
+        "lon": 7.6869,
+        "url": "https://example.com/dc-torino",
+        "data_aggiornamento": "2025-04-25"
+      },
+      {
+        "id": "DAT-IT-EXTRA-1",
+        "nome": "Progetto Data Center Italia 1",
+        "regione": "Italia",
+        "capacita_mw": 10,
+        "stato": "attivo",
+        "descrizione": "Progetto di data center in Italia",
+        "investimento_milioni_euro": 20,
+        "luogo": "Roma",
+        "lat": 41.9028,
+        "lon": 12.4964,
+        "url": "https://www.gse.it/",
+        "data_aggiornamento": "2026-04-25T14:54:20.814854"
+      },
+      {
+        "id": "DAT-IT-EXTRA-2",
+        "nome": "Progetto Data Center Italia 2",
+        "regione": "Italia",
+        "capacita_mw": 15,
+        "stato": "attivo",
+        "descrizione": "Progetto di data center in Italia",
+        "investimento_milioni_euro": 30,
+        "luogo": "Roma",
+        "lat": 41.9028,
+        "lon": 12.4964,
+        "url": "https://www.gse.it/",
+        "data_aggiornamento": "2026-04-25T14:54:20.814863"
+      }
+    ],
+    "europa": [
+      {
+        "id": "DC-EU-001",
+        "nome": "Google Data Center Finlandia",
+        "paese": "Finlandia",
+        "capacita_mw": 120,
+        "stato": "attivo",
+        "descrizione": "Data center raffreddato naturalmente",
+        "investimento_milioni_euro": 500,
+        "luogo": "Hamina",
+        "lat": 60.5695,
+        "lon": 27.2021,
+        "url": "https://www.google.com/about/datacenters/locations/hamina/",
+        "data_aggiornamento": "2025-04-25"
+      }
+    ],
+    "mondo": [
+      {
+        "id": "DC-WORLD-001",
+        "nome": "Meta Data Center Iowa",
+        "paese": "USA",
+        "capacita_mw": 200,
+        "stato": "attivo",
+        "descrizione": "Uno dei più grandi data center al mondo",
+        "investimento_milioni_euro": 1000,
+        "luogo": "Iowa",
+        "lat": 42.1015,
+        "lon": -93.2105,
+        "url": "https://example.com/meta-iowa",
+        "data_aggiornamento": "2025-04-25"
+      }
+    ]
+  },
+  "normative": {
+    "italia": [
+      {
+        "id": "NORM-IT-DC-001",
+        "titolo": "Strategia per la Trasformazione Digitale",
+        "tipo": "Piano Strategico",
+        "anno": 2022,
+        "descrizione": "Piano nazionale per lo sviluppo di infrastrutture digitali sostenibili",
+        "punti_principali": [
+          "Investimenti in infrastrutture digitali",
+          "Cloud computing e servizi digitali",
+          "Sicurezza cibernetica",
+          "Efficienza energetica dei data center"
+        ],
+        "url": "https://www.agid.gov.it/",
+        "data_aggiornamento": "2025-04-25"
+      }
+    ],
+    "europa": [
+      {
+        "id": "NORM-EU-DC-001",
+        "titolo": "Digital Europe Programme (DEP)",
+        "tipo": "Programma europeo",
+        "anno": 2021,
+        "descrizione": "Programma decennale per il rafforzamento dei servizi digitali europei",
+        "punti_principali": [
+          "Sviluppo di supercomputer europei",
+          "Infrastrutture cloud sovrane",
+          "Intelligenza artificiale e cibersicurezza",
+          "Competenze digitali"
+        ],
+        "url": "https://digital-strategy.ec.europa.eu/en",
+        "data_aggiornamento": "2025-04-25"
+      }
+    ]
+  },
+  "fonti_ufficiali": [
+    {
+      "nome": "AGID - Agenzia per l'Italia Digitale",
+      "url": "https://www.agid.gov.it/",
+      "tipo": "Agenzia italiana",
+      "descrizione": "Agenzia italiana per l'agenda digitale"
+    },
+    {
+      "nome": "European Commission - Digital",
+      "url": "https://digital-strategy.ec.europa.eu/",
+      "tipo": "Istituzione europea",
+      "descrizione": "Strategia digitale europea"
+    }
+  ]
+}

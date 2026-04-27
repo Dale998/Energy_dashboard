@@ -1,0 +1,33 @@
+name: Aggiornamento Dati Energetici
+
+# Scegliamo quando far partire lo script
+on:
+  schedule:
+    - cron: '0 3 * * *' # Esegue ogni giorno alle 03:00 di notte
+  workflow_dispatch: # Permette di cliccare un bottone su GitHub per forzare l'avvio
+
+jobs:
+  update-data:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Clona il repository
+        uses: actions/checkout@v3
+
+      - name: Installa Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.10' # O la versione che usi tu
+
+      - name: Installa le librerie
+        run: pip install requests beautifulsoup4 pandas # Solo quelle necessarie per fetch_data.py
+
+      - name: Avvia lo script di aggiornamento
+        run: python fetch_data.py
+
+      - name: Salva i nuovi dati su GitHub
+        run: |
+          git config --global user.email "action@github.com"
+          git config --global user.name "GitHub Action Bot"
+          git add data/*.json
+          git commit -m "Aggiornamento automatico fonti ufficiali" || echo "Nessuna modifica da salvare"
+          git push

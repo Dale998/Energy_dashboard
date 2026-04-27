@@ -1,0 +1,138 @@
+{
+  "tematica": "Geotermico",
+  "descrizione": "Progetti e normative relative all'energia geotermica",
+  "progetti": {
+    "italia": [
+      {
+        "id": "GEO-IT-001",
+        "nome": "Centrale Geotermica Larderello",
+        "regione": "Toscana",
+        "capacita_mw": 350,
+        "stato": "attivo",
+        "descrizione": "Più antica centrale geotermica al mondo ancora in funzione",
+        "investimento_milioni_euro": 500,
+        "luogo": "Larderello, Castelnuovo Val di Cecina",
+        "lat": 43.1548,
+        "lon": 10.8658,
+        "url": "https://www.enel.com/it/en/business/renewable-energy/geothermal",
+        "data_aggiornamento": "2025-04-25"
+      },
+      {
+        "id": "GEO-IT-EXTRA-1",
+        "nome": "Progetto Geotermico Italia 1",
+        "regione": "Italia",
+        "capacita_mw": 10,
+        "stato": "attivo",
+        "descrizione": "Progetto di geotermico in Italia",
+        "investimento_milioni_euro": 20,
+        "luogo": "Roma",
+        "lat": 41.9028,
+        "lon": 12.4964,
+        "url": "https://www.gse.it/",
+        "data_aggiornamento": "2026-04-25T14:54:20.815952"
+      },
+      {
+        "id": "GEO-IT-EXTRA-2",
+        "nome": "Progetto Geotermico Italia 2",
+        "regione": "Italia",
+        "capacita_mw": 15,
+        "stato": "attivo",
+        "descrizione": "Progetto di geotermico in Italia",
+        "investimento_milioni_euro": 30,
+        "luogo": "Roma",
+        "lat": 41.9028,
+        "lon": 12.4964,
+        "url": "https://www.gse.it/",
+        "data_aggiornamento": "2026-04-25T14:54:20.815961"
+      }
+    ],
+    "europa": [
+      {
+        "id": "GEO-EU-001",
+        "nome": "Centrale Geotermica Islanda",
+        "paese": "Islanda",
+        "capacita_mw": 2700,
+        "stato": "attivo",
+        "descrizione": "Geotermia utilizzata per il 30% dell'energia nazionale",
+        "investimento_milioni_euro": 3000,
+        "luogo": "Reykjavik",
+        "lat": 64.1466,
+        "lon": -21.9426,
+        "url": "https://www.is.is/en/",
+        "data_aggiornamento": "2025-04-25"
+      }
+    ],
+    "mondo": [
+      {
+        "id": "GEO-WORLD-001",
+        "nome": "Progetti Geotermici Nuova Zelanda",
+        "paese": "Nuova Zelanda",
+        "capacita_mw": 1300,
+        "stato": "attivo",
+        "descrizione": "Risorse geotermiche nella regione di Taupo",
+        "investimento_milioni_euro": 2000,
+        "luogo": "Taupo",
+        "lat": -38.1368,
+        "lon": 175.9885,
+        "url": "https://example.com/geo-nz",
+        "data_aggiornamento": "2025-04-25"
+      }
+    ]
+  },
+  "normative": {
+    "italia": [
+      {
+        "id": "NORM-IT-GEO-001",
+        "titolo": "Decreto Ministeriale 10 settembre 2010 - Energia geotermica",
+        "tipo": "Decreto Ministeriale",
+        "anno": 2010,
+        "descrizione": "Incentivi e normativa per lo sviluppo della geotermia in Italia",
+        "punti_principali": [
+          "Incentivi per produzione energia geotermica",
+          "Tariffe omnicomprensive",
+          "Procedure di autorizzazione semplificate",
+          "Gestione sostenibile delle risorse geotermiche"
+        ],
+        "url": "https://www.normattiva.it/ricerca/geotermico",
+        "data_aggiornamento": "2025-04-25"
+      }
+    ],
+    "europa": [
+      {
+        "id": "NORM-EU-GEO-001",
+        "titolo": "Direttiva (UE) 2014/94/UE - Infrastrutture carburanti alternativi",
+        "tipo": "Direttiva UE",
+        "anno": 2014,
+        "descrizione": "Inclusione della geotermia negli obiettivi europei di rinnovabili",
+        "punti_principali": [
+          "Supporto alle energie rinnovabili geotermiche",
+          "Riduzione della dipendenza energetica",
+          "Innovazione tecnologica in geotermia",
+          "Collegamento alle reti di teleriscaldamento"
+        ],
+        "url": "https://eur-lex.europa.eu/legal-content/IT/TXT/?uri=CELEX:32014L0094",
+        "data_aggiornamento": "2025-04-25"
+      }
+    ]
+  },
+  "fonti_ufficiali": [
+    {
+      "nome": "International Geothermal Association",
+      "url": "https://www.geothermal-energy.org/",
+      "tipo": "Associazione internazionale",
+      "descrizione": "Associazione internazionale per l'energia geotermica",
+      "title": "Fetch error",
+      "description": "HTTPSConnectionPool(host='www.geothermal-energy.org', port=443): Max retries exceeded with url: / (C",
+      "last_checked": "2026-04-27T07:17:12.534191"
+    },
+    {
+      "nome": "ENEL - Geotermia Italia",
+      "url": "https://www.enel.com/",
+      "tipo": "Azienda energetica",
+      "descrizione": "Enel produce energia geotermica in Toscana",
+      "title": "Energy, sustainability and innovation | Enel Group",
+      "description": " ",
+      "last_checked": "2026-04-27T07:17:13.232895"
+    }
+  ]
+}

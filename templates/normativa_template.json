@@ -1,0 +1,15 @@
+{
+  "id": "NORM-TIPO-TEMATICA-###",
+  "titolo": "Titolo completo della normativa",
+  "tipo": "Legge|Decreto|Direttiva UE|Regolamento|Piano Nazionale",
+  "anno": 2024,
+  "descrizione": "Descrizione breve della normativa",
+  "punti_principali": [
+    "Punto principale 1",
+    "Punto principale 2",
+    "Punto principale 3"
+  ],
+  "url": "https://...",
+  "data_aggiornamento": "YYYY-MM-DD",
+  "note": "Note aggiuntive"
+}

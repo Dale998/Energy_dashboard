@@ -1,0 +1,132 @@
+{
+  "tematica": "Cogenerazione",
+  "descrizione": "Progetti e normative relative alla cogenerazione (CHP - Combined Heat and Power)",
+  "progetti": {
+    "italia": [
+      {
+        "id": "COG-IT-001",
+        "nome": "Impianto Cogenerazione Milano",
+        "regione": "Lombardia",
+        "capacita_mw": 100,
+        "stato": "attivo",
+        "descrizione": "Impianto CHP ad alta efficienza per riscaldamento e energia",
+        "investimento_milioni_euro": 80,
+        "luogo": "Milano",
+        "lat": 45.4642,
+        "lon": 9.19,
+        "url": "https://example.com/chp-milano",
+        "data_aggiornamento": "2025-04-25"
+      },
+      {
+        "id": "COG-IT-EXTRA-1",
+        "nome": "Progetto Cogenerazione Italia 1",
+        "regione": "Italia",
+        "capacita_mw": 10,
+        "stato": "attivo",
+        "descrizione": "Progetto di cogenerazione in Italia",
+        "investimento_milioni_euro": 20,
+        "luogo": "Roma",
+        "lat": 41.9028,
+        "lon": 12.4964,
+        "url": "https://www.gse.it/",
+        "data_aggiornamento": "2026-04-25T14:54:20.816587"
+      },
+      {
+        "id": "COG-IT-EXTRA-2",
+        "nome": "Progetto Cogenerazione Italia 2",
+        "regione": "Italia",
+        "capacita_mw": 15,
+        "stato": "attivo",
+        "descrizione": "Progetto di cogenerazione in Italia",
+        "investimento_milioni_euro": 30,
+        "luogo": "Roma",
+        "lat": 41.9028,
+        "lon": 12.4964,
+        "url": "https://www.gse.it/",
+        "data_aggiornamento": "2026-04-25T14:54:20.816596"
+      }
+    ],
+    "europa": [
+      {
+        "id": "COG-EU-001",
+        "nome": "Rete Teleriscaldamento Copenaghen",
+        "paese": "Danimarca",
+        "capacita_mw": 2500,
+        "stato": "attivo",
+        "descrizione": "Una delle maggiori reti di teleriscaldamento europee con CHP",
+        "investimento_milioni_euro": 3500,
+        "luogo": "Copenaghen",
+        "lat": 55.6761,
+        "lon": 12.5683,
+        "url": "https://www.varme.dk/",
+        "data_aggiornamento": "2025-04-25"
+      }
+    ],
+    "mondo": [
+      {
+        "id": "COG-WORLD-001",
+        "nome": "Impianti CHP Russia",
+        "paese": "Russia",
+        "capacita_mw": 50000,
+        "stato": "attivo",
+        "descrizione": "Vasti impianti di cogenerazione in tutta la Russia",
+        "investimento_milioni_euro": 50000,
+        "luogo": "Russia",
+        "lat": 61.524,
+        "lon": 105.3188,
+        "url": "https://example.com/chp-russia",
+        "data_aggiornamento": "2025-04-25"
+      }
+    ]
+  },
+  "normative": {
+    "italia": [
+      {
+        "id": "NORM-IT-COG-001",
+        "titolo": "Decreto Legislativo 8 febbraio 2007 n.20 - Cogenerazione",
+        "tipo": "Decreto Legislativo",
+        "anno": 2007,
+        "descrizione": "Promozione della cogenerazione ad alto rendimento",
+        "punti_principali": [
+          "Definizione di cogenerazione ad alto rendimento",
+          "Incentivi e agevolazioni fiscali",
+          "Tariffe omnicomprensive per l'immissione in rete",
+          "Efficienza energetica superiore al 70%"
+        ],
+        "url": "https://www.normattiva.it/ricerca/cogenerazione",
+        "data_aggiornamento": "2025-04-25"
+      }
+    ],
+    "europa": [
+      {
+        "id": "NORM-EU-COG-001",
+        "titolo": "Direttiva (UE) 2012/27/UE - Efficienza energetica (rifusa 2023/1791)",
+        "tipo": "Direttiva UE",
+        "anno": 2012,
+        "descrizione": "Promozione dell'efficienza energetica e della cogenerazione",
+        "punti_principali": [
+          "Obiettivi di efficienza energetica 42.5% entro 2030",
+          "Priorità per CHP ad alto rendimento",
+          "Teleriscaldamento e teleraffreddamento",
+          "Obbligo di valutazione della fattibilità"
+        ],
+        "url": "https://eur-lex.europa.eu/legal-content/IT/TXT/?uri=CELEX:32012L0027",
+        "data_aggiornamento": "2025-04-25"
+      }
+    ]
+  },
+  "fonti_ufficiali": [
+    {
+      "nome": "COGEN Europe",
+      "url": "https://www.cogeneurope.eu/",
+      "tipo": "Associazione europea",
+      "descrizione": "Associazione europea per la promozione della cogenerazione"
+    },
+    {
+      "nome": "GSE - Gestore Servizi Energetici",
+      "url": "https://www.gse.it/",
+      "tipo": "Agenzia italiana",
+      "descrizione": "Gestione degli incentivi per energia da fonti rinnovabili"
+    }
+  ]
+}

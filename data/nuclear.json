@@ -1,0 +1,132 @@
+{
+  "tematica": "Nucleare",
+  "descrizione": "Progetti e normative relative all'energia nucleare",
+  "progetti": {
+    "italia": [
+      {
+        "id": "NUC-IT-001",
+        "nome": "Studio di fattibilità SMR Italia",
+        "regione": "Lazio",
+        "capacita_mw": 300,
+        "stato": "in pianificazione",
+        "descrizione": "Studio per l'implementazione di Small Modular Reactors in Italia",
+        "investimento_milioni_euro": 1500,
+        "luogo": "Roma",
+        "lat": 41.9028,
+        "lon": 12.4964,
+        "url": "https://example.com/smr-italia",
+        "data_aggiornamento": "2026-04-25T14:52:04.791516"
+      },
+      {
+        "id": "NUC-IT-EXTRA-1",
+        "nome": "Progetto Nucleare Italia 1",
+        "regione": "Italia",
+        "capacita_mw": 10,
+        "stato": "attivo",
+        "descrizione": "Progetto di nucleare in Italia",
+        "investimento_milioni_euro": 20,
+        "luogo": "Roma",
+        "lat": 41.9028,
+        "lon": 12.4964,
+        "url": "https://www.gse.it/",
+        "data_aggiornamento": "2026-04-25T14:54:20.814297"
+      },
+      {
+        "id": "NUC-IT-EXTRA-2",
+        "nome": "Progetto Nucleare Italia 2",
+        "regione": "Italia",
+        "capacita_mw": 15,
+        "stato": "attivo",
+        "descrizione": "Progetto di nucleare in Italia",
+        "investimento_milioni_euro": 30,
+        "luogo": "Roma",
+        "lat": 41.9028,
+        "lon": 12.4964,
+        "url": "https://www.gse.it/",
+        "data_aggiornamento": "2026-04-25T14:54:20.814306"
+      }
+    ],
+    "europa": [
+      {
+        "id": "NUC-EU-001",
+        "nome": "EPR Sizewell C",
+        "paese": "Regno Unito",
+        "capacita_mw": 3260,
+        "stato": "in costruzione",
+        "descrizione": "Reattore di terza generazione EPR",
+        "investimento_milioni_euro": 25000,
+        "luogo": "Suffolk",
+        "lat": 52.0761,
+        "lon": 1.4981,
+        "url": "https://www.sizewell.co.uk/",
+        "data_aggiornamento": "2026-04-25T14:52:04.791527"
+      }
+    ],
+    "mondo": [
+      {
+        "id": "NUC-WORLD-001",
+        "nome": "ITER - International Thermonuclear Experimental Reactor",
+        "paese": "Francia",
+        "capacita_mw": 0,
+        "stato": "in costruzione",
+        "descrizione": "Reattore a fusione nucleare sperimentale",
+        "investimento_milioni_euro": 22500,
+        "luogo": "Cadarache",
+        "lat": 43.9341,
+        "lon": 5.7928,
+        "url": "https://www.iter.org/",
+        "data_aggiornamento": "2026-04-25T14:52:04.791531"
+      }
+    ]
+  },
+  "normative": {
+    "italia": [
+      {
+        "id": "NORM-IT-NUC-001",
+        "titolo": "Decreto-legge 1/2012 - Energia nucleare in Italia",
+        "tipo": "Decreto-legge",
+        "anno": 2012,
+        "descrizione": "Normativa italiana sul ritorno al nucleare e sulla gestione dei rifiuti",
+        "punti_principali": [
+          "Moratoria sulla costruzione di centrali nucleari",
+          "Gestione del combustibile nucleare esaurito",
+          "Dismissione di impianti nucleari",
+          "Deposito geologico nazionale"
+        ],
+        "url": "https://www.normattiva.it/ricerca/risultati/?query=nucleare",
+        "data_aggiornamento": "2025-04-25"
+      }
+    ],
+    "europa": [
+      {
+        "id": "NORM-EU-NUC-001",
+        "titolo": "Direttiva (UE) 2011/70/EURATOM - Gestione combustibile nucleare",
+        "tipo": "Direttiva Euratom",
+        "anno": 2011,
+        "descrizione": "Normativa per la gestione sicura del combustibile nucleare esausto",
+        "punti_principali": [
+          "Standard comuni per la gestione del combustibile esausto",
+          "Responsabilità degli stati membri",
+          "Pianificazione di lungo termine",
+          "Finanziamento dei costi di smantellamento"
+        ],
+        "url": "https://eur-lex.europa.eu/legal-content/IT/TXT/?uri=CELEX:32011L0070",
+        "data_aggiornamento": "2025-04-25"
+      }
+    ]
+  },
+  "fonti_ufficiali": [
+    {
+      "nome": "IAEA - International Atomic Energy Agency",
+      "url": "https://www.iaea.org/",
+      "tipo": "Agenzia internazionale",
+      "descrizione": "Agenzia internazionale per l'energia atomica"
+    },
+    {
+      "nome": "IAEA PRIS Database",
+      "url": "https://pris.iaea.org/PRIS/home.aspx",
+      "tipo": "Database",
+      "descrizione": "Database mondiale dei reattori nucleari"
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "update_settings": {
+    "enabled": true,
+    "interval_hours": 6,
+    "backup_enabled": true,
+    "max_backups": 10,
+    "timeout_seconds": 15
+  },
+  "api_sources": {
+    "hydrogen": {
+      "url": "https://clean-hydrogen.europa.eu/api/projects",
+      "enabled": true,
+      "refresh_hours": 4
+    },
+    "nuclear": {
+      "url": "https://pris.iaea.org/api/reactors",
+      "enabled": true,
+      "refresh_hours": 24
+    },
+    "datacenters": {
+      "url": "https://www.europaserver.eu/api/datacenters",
+      "enabled": true,
+      "refresh_hours": 12
+    },
+    "biogas": {
+      "url": "https://www.europeanbiogas.eu/api/plants",
+      "enabled": true,
+      "refresh_hours": 12
+    },
+    "geothermal": {
+      "url": "https://www.geothermal-energy.org/api/plants",
+      "enabled": true,
+      "refresh_hours": 24
+    },
+    "cogeneration": {
+      "url": "https://www.cogeneurope.eu/api/plants",
+      "enabled": true,
+      "refresh_hours": 24
+    },
+    "regulations": {
+      "url": "https://eur-lex.europa.eu/api/v2/search-documents",
+      "enabled": true,
+      "refresh_hours": 24
+    }
+  },
+  "logging": {
+    "level": "INFO",
+    "file": "logs/updater.log",
+    "max_size_mb": 50
+  }
+}
