@@ -1,132 +1,48 @@
 {
   "tematica": "Nucleare",
-  "descrizione": "Progetti e normative relative all'energia nucleare",
+  "descrizione": "Quadro del settore nucleare: decommissioning e ricerca in Italia, impianti di ultima generazione (EPR, AP1000) e reattori modulari (SMR) nel mondo.",
+  "ultima_modifica": "2026-04-27",
+  "statistiche": {
+    "italia": 0,
+    "europa": 104,
+    "mondo": 440
+  },
   "progetti": {
     "italia": [
-      {
-        "id": "NUC-IT-001",
-        "nome": "Studio di fattibilità SMR Italia",
-        "regione": "Lazio",
-        "capacita_mw": 300,
-        "stato": "in pianificazione",
-        "descrizione": "Studio per l'implementazione di Small Modular Reactors in Italia",
-        "investimento_milioni_euro": 1500,
-        "luogo": "Roma",
-        "lat": 41.9028,
-        "lon": 12.4964,
-        "url": "https://example.com/smr-italia",
-        "data_aggiornamento": "2026-04-25T14:52:04.791516"
-      },
-      {
-        "id": "NUC-IT-EXTRA-1",
-        "nome": "Progetto Nucleare Italia 1",
-        "regione": "Italia",
-        "capacita_mw": 10,
-        "stato": "attivo",
-        "descrizione": "Progetto di nucleare in Italia",
-        "investimento_milioni_euro": 20,
-        "luogo": "Roma",
-        "lat": 41.9028,
-        "lon": 12.4964,
-        "url": "https://www.gse.it/",
-        "data_aggiornamento": "2026-04-25T14:54:20.814297"
-      },
-      {
-        "id": "NUC-IT-EXTRA-2",
-        "nome": "Progetto Nucleare Italia 2",
-        "regione": "Italia",
-        "capacita_mw": 15,
-        "stato": "attivo",
-        "descrizione": "Progetto di nucleare in Italia",
-        "investimento_milioni_euro": 30,
-        "luogo": "Roma",
-        "lat": 41.9028,
-        "lon": 12.4964,
-        "url": "https://www.gse.it/",
-        "data_aggiornamento": "2026-04-25T14:54:20.814306"
-      }
+      { "id": "NUC-IT-01", "nome": "Centrale di Caorso", "regione": "Emilia-Romagna", "capacita_mw": 860, "stato": "decommissioning", "descrizione": "Sito Sogin in fase di smantellamento accelerato.", "luogo": "Caorso (PC)", "lat": 45.0747, "lon": 9.8736, "url": "https://www.sogin.it" },
+      { "id": "NUC-IT-02", "nome": "Centrale di Trino", "regione": "Piemonte", "capacita_mw": 270, "stato": "decommissioning", "descrizione": "Ex centrale 'Enrico Fermi', importante sito di ricerca storica.", "luogo": "Trino (VC)", "lat": 45.1919, "lon": 8.2758, "url": "https://www.sogin.it" },
+      { "id": "NUC-IT-03", "nome": "Centrale del Garigliano", "regione": "Campania", "capacita_mw": 160, "stato": "decommissioning", "descrizione": "Sito in fase di bonifica e gestione rifiuti radioattivi.", "luogo": "Sessa Aurunca (CE)", "lat": 41.2581, "lon": 13.8344, "url": "https://www.sogin.it" },
+      { "id": "NUC-IT-04", "nome": "Centrale di Latina", "regione": "Lazio", "capacita_mw": 210, "stato": "decommissioning", "descrizione": "Ex centrale a gas-grafite in smantellamento.", "luogo": "Borgo Sabotino (LT)", "lat": 41.3853, "lon": 12.8081, "url": "https://www.sogin.it" },
+      { "id": "NUC-IT-05", "nome": "EUREX Saluggia", "regione": "Piemonte", "stato": "decommissioning", "descrizione": "Impianto di ricerca sul riprocessamento del combustibile.", "luogo": "Saluggia (VC)", "lat": 45.2150, "lon": 8.0167, "url": "https://www.sogin.it" },
+      { "id": "NUC-IT-06", "nome": "ITREC Rotondella", "regione": "Basilicata", "stato": "decommissioning", "descrizione": "Impianto di Trattamento e Rifabbricazione Elementi di Combustibile.", "luogo": "Rotondella (MT)", "lat": 40.1650, "lon": 16.6667, "url": "https://www.sogin.it" },
+      { "id": "NUC-IT-07", "nome": "Centro Ricerche ENEA Brasimone", "regione": "Emilia-Romagna", "stato": "ricerca", "descrizione": "Sviluppo reattori IV generazione e tecnologie LFR.", "luogo": "Camugnano (BO)", "lat": 44.1167, "lon": 11.1167, "url": "https://www.enea.it" },
+      { "id": "NUC-IT-08", "nome": "ENEA Frascati (DTT)", "regione": "Lazio", "stato": "ricerca", "descrizione": "Divertor Tokamak Test: eccellenza mondiale nella fusione nucleare.", "luogo": "Frascati (RM)", "lat": 41.8122, "lon": 12.6736, "url": "https://www.dtt-project.it" },
+      { "id": "NUC-IT-09", "nome": "ENEA Casaccia", "regione": "Lazio", "stato": "ricerca", "descrizione": "Principale polo ENEA per la sicurezza e le biotecnologie nucleari.", "luogo": "Roma", "lat": 42.0436, "lon": 12.3022, "url": "https://www.enea.it" },
+      { "id": "NUC-IT-10", "nome": "JRC Ispra", "regione": "Lombardia", "stato": "ricerca", "descrizione": "Joint Research Centre della Commissione Europea.", "luogo": "Ispra (VA)", "lat": 45.8111, "lon": 8.6275, "url": "https://joint-research-centre.ec.europa.eu" }
     ],
     "europa": [
-      {
-        "id": "NUC-EU-001",
-        "nome": "EPR Sizewell C",
-        "paese": "Regno Unito",
-        "capacita_mw": 3260,
-        "stato": "in costruzione",
-        "descrizione": "Reattore di terza generazione EPR",
-        "investimento_milioni_euro": 25000,
-        "luogo": "Suffolk",
-        "lat": 52.0761,
-        "lon": 1.4981,
-        "url": "https://www.sizewell.co.uk/",
-        "data_aggiornamento": "2026-04-25T14:52:04.791527"
-      }
+      { "id": "NUC-EU-01", "nome": "Olkiluoto 3", "paese": "Finlandia", "capacita_mw": 1600, "stato": "attivo", "descrizione": "Primo reattore EPR operativo in Europa.", "lat": 61.2358, "lon": 21.4408, "url": "https://www.tvo.fi" },
+      { "id": "NUC-EU-02", "nome": "Flamanville 3", "paese": "Francia", "capacita_mw": 1650, "stato": "nuovo", "descrizione": "Reattore EPR di ultima generazione.", "lat": 49.5364, "lon": -1.8814, "url": "https://www.edf.fr" },
+      { "id": "NUC-EU-03", "nome": "Hinkley Point C", "paese": "UK", "capacita_mw": 3200, "stato": "costruzione", "descrizione": "Mega-progetto EPR per il mercato britannico.", "lat": 51.2069, "lon": -3.1311, "url": "https://www.edfenergy.com" },
+      { "id": "NUC-EU-04", "nome": "Mochovce 3 & 4", "paese": "Slovacchia", "capacita_mw": 940, "stato": "attivo", "descrizione": "Completamento di unità VVER di nuova generazione.", "lat": 48.2611, "lon": 18.4556, "url": "https://www.seas.sk" },
+      { "id": "NUC-EU-05", "nome": "Nuward SMR", "paese": "Francia", "capacita_mw": 340, "stato": "progetto", "descrizione": "Reattore modulare (SMR) sviluppato da EDF.", "lat": 48.8566, "lon": 2.3522, "url": "https://www.nuward.com" },
+      { "id": "NUC-EU-06", "nome": "Rolls-Royce SMR", "paese": "UK", "capacita_mw": 470, "stato": "progetto", "descrizione": "Soluzione SMR britannica per la flessibilità di rete.", "lat": 52.9225, "lon": -1.4746, "url": "https://www.rolls-royce-smr.com" },
+      { "id": "NUC-EU-07", "nome": "Loviisa Unit 1 & 2", "paese": "Finlandia", "capacita_mw": 1014, "stato": "attivo", "descrizione": "Esempio di alta efficienza operativa nordica.", "lat": 60.3708, "lon": 26.3472, "url": "https://www.fortum.com" },
+      { "id": "NUC-EU-08", "nome": "Dukovany Expansion", "paese": "Rep. Ceca", "capacita_mw": 1200, "stato": "progetto", "descrizione": "Nuova unità per la sicurezza energetica ceca.", "lat": 49.0850, "lon": 16.1497, "url": "https://www.cez.cz" },
+      { "id": "NUC-EU-09", "nome": "Paks II", "paese": "Ungheria", "capacita_mw": 2400, "stato": "costruzione", "descrizione": "Raddoppio della capacità nucleare ungherese.", "lat": 46.5733, "lon": 18.8542, "url": "https://www.paks2.hu" },
+      { "id": "NUC-EU-10", "nome": "ITER Cadarache", "paese": "Francia", "stato": "costruzione", "descrizione": "Il futuro della fusione nucleare mondiale.", "lat": 43.6875, "lon": 5.7625, "url": "https://www.iter.org" }
     ],
     "mondo": [
-      {
-        "id": "NUC-WORLD-001",
-        "nome": "ITER - International Thermonuclear Experimental Reactor",
-        "paese": "Francia",
-        "capacita_mw": 0,
-        "stato": "in costruzione",
-        "descrizione": "Reattore a fusione nucleare sperimentale",
-        "investimento_milioni_euro": 22500,
-        "luogo": "Cadarache",
-        "lat": 43.9341,
-        "lon": 5.7928,
-        "url": "https://www.iter.org/",
-        "data_aggiornamento": "2026-04-25T14:52:04.791531"
-      }
+      { "id": "NUC-W-01", "nome": "Barakah Plant", "paese": "UAE", "capacita_mw": 5600, "stato": "attivo", "descrizione": "Primo impianto nucleare del mondo arabo.", "lat": 23.9783, "lon": 52.2353, "url": "https://www.enec.gov.ae" },
+      { "id": "NUC-W-02", "nome": "Vogtle Unit 3 & 4", "paese": "USA", "capacita_mw": 2234, "stato": "attivo", "descrizione": "Primi reattori AP1000 costruiti negli Stati Uniti.", "lat": 33.1419, "lon": -81.7647, "url": "https://www.georgiapower.com" },
+      { "id": "NUC-W-03", "nome": "Shidao Bay (HTR-PM)", "paese": "Cina", "capacita_mw": 210, "stato": "attivo", "descrizione": "Primo SMR al mondo di IV generazione (alta temperatura).", "lat": 36.9167, "lon": 122.4500, "url": "https://www.en.wikipedia.org" },
+      { "id": "NUC-W-04", "nome": "Akademik Lomonosov", "paese": "Russia", "capacita_mw": 70, "stato": "attivo", "descrizione": "Centrale nucleare galleggiante (SMR) per l'Artico.", "lat": 69.7028, "lon": 170.3019, "url": "https://www.rosatom.ru" },
+      { "id": "NUC-W-05", "nome": "Linglong One", "paese": "Cina", "capacita_mw": 125, "stato": "costruzione", "descrizione": "Primo SMR commerciale multiscopo basato su terra.", "lat": 19.1039, "lon": 108.8258, "url": "https://www.iaea.org" },
+      { "id": "NUC-W-06", "nome": "Shin Hanul 1 & 2", "paese": "Sud Corea", "capacita_mw": 2800, "stato": "attivo", "descrizione": "Reattori APR-1400 di design coreano.", "lat": 37.0911, "lon": 129.3853, "url": "https://www.khnp.co.kr" },
+      { "id": "NUC-W-07", "nome": "Kakrapar 3 & 4", "paese": "India", "capacita_mw": 1400, "stato": "attivo", "descrizione": "Reattori ad acqua pesante pressurizzata (PHWR).", "lat": 21.2358, "lon": 73.3486, "url": "https://www.npcil.nic.in" },
+      { "id": "NUC-W-08", "nome": "TerraPower Natrium", "paese": "USA", "capacita_mw": 345, "stato": "progetto", "descrizione": "SMR di IV generazione raffreddato a sodio.", "lat": 41.7911, "lon": -110.5891, "url": "https://www.terrapower.com" },
+      { "id": "NUC-W-09", "nome": "NuScale VOYGR", "paese": "USA", "capacita_mw": 462, "stato": "progetto", "descrizione": "Design SMR certificato dalla NRC americana.", "lat": 44.5647, "lon": -123.2620, "url": "https://www.nuscalepower.com" },
+      { "id": "NUC-W-10", "nome": "Fuqing 5 & 6 (Hualong One)", "paese": "Cina", "capacita_mw": 2300, "stato": "attivo", "descrizione": "Il primo reattore interamente di design cinese.", "lat": 25.4412, "lon": 119.4500, "url": "https://www.cnnc.com.cn" }
     ]
-  },
-  "normative": {
-    "italia": [
-      {
-        "id": "NORM-IT-NUC-001",
-        "titolo": "Decreto-legge 1/2012 - Energia nucleare in Italia",
-        "tipo": "Decreto-legge",
-        "anno": 2012,
-        "descrizione": "Normativa italiana sul ritorno al nucleare e sulla gestione dei rifiuti",
-        "punti_principali": [
-          "Moratoria sulla costruzione di centrali nucleari",
-          "Gestione del combustibile nucleare esaurito",
-          "Dismissione di impianti nucleari",
-          "Deposito geologico nazionale"
-        ],
-        "url": "https://www.normattiva.it/ricerca/risultati/?query=nucleare",
-        "data_aggiornamento": "2025-04-25"
-      }
-    ],
-    "europa": [
-      {
-        "id": "NORM-EU-NUC-001",
-        "titolo": "Direttiva (UE) 2011/70/EURATOM - Gestione combustibile nucleare",
-        "tipo": "Direttiva Euratom",
-        "anno": 2011,
-        "descrizione": "Normativa per la gestione sicura del combustibile nucleare esausto",
-        "punti_principali": [
-          "Standard comuni per la gestione del combustibile esausto",
-          "Responsabilità degli stati membri",
-          "Pianificazione di lungo termine",
-          "Finanziamento dei costi di smantellamento"
-        ],
-        "url": "https://eur-lex.europa.eu/legal-content/IT/TXT/?uri=CELEX:32011L0070",
-        "data_aggiornamento": "2025-04-25"
-      }
-    ]
-  },
-  "fonti_ufficiali": [
-    {
-      "nome": "IAEA - International Atomic Energy Agency",
-      "url": "https://www.iaea.org/",
-      "tipo": "Agenzia internazionale",
-      "descrizione": "Agenzia internazionale per l'energia atomica"
-    },
-    {
-      "nome": "IAEA PRIS Database",
-      "url": "https://pris.iaea.org/PRIS/home.aspx",
-      "tipo": "Database",
-      "descrizione": "Database mondiale dei reattori nucleari"
-    }
-  ]
+  }
 }

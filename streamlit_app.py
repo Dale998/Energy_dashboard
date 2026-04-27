@@ -110,14 +110,19 @@ st.sidebar.markdown("**Nota:** I dati vengono caricati da file JSON strutturati 
 st.header(f"📊 {tematica_data.get('tematica', tematica)}")
 
 # Legge i numeri reali totali dalle statistiche. Se non esistono, conta i progetti nella lista.
-progetti_italia = tematica_data.get('statistiche', {}).get('italia', len(tematica_data.get('progetti', {}).get('italia', [])))
-progetti_europa = tematica_data.get('statistiche', {}).get('europa', len(tematica_data.get('progetti', {}).get('europa', [])))
-progetti_mondo = tematica_data.get('statistiche', {}).get('mondo', len(tematica_data.get('progetti', {}).get('mondo', [])))
+val_it = tematica_data.get('statistiche', {}).get('italia', len(tematica_data.get('progetti', {}).get('italia', [])))
+val_eu = tematica_data.get('statistiche', {}).get('europa', len(tematica_data.get('progetti', {}).get('europa', [])))
+val_wo = tematica_data.get('statistiche', {}).get('mondo', len(tematica_data.get('progetti', {}).get('mondo', [])))
 
 # Formatta i numeri con il punto per le migliaia (es. 1.800) per renderli più leggibili
-if isinstance(progetti_italia, int): progetti_italia = f"{progetti_italia:,}".replace(',', '.')
-if isinstance(progetti_europa, int): progetti_europa = f"{progetti_europa:,}".replace(',', '.')
-if isinstance(progetti_mondo, int): progetti_mondo = f"{progetti_mondo:,}".replace(',', '.')
+# Se la tematica è Nucleare, aggiunge l'asterisco per l'Italia
+if tematica == "Nucleare":
+    progetti_italia = f"{val_it}*"
+else:
+    progetti_italia = f"{val_it:,}".replace(',', '.') if isinstance(val_it, int) else val_it
+
+progetti_europa = f"{val_eu:,}".replace(',', '.') if isinstance(val_eu, int) else val_eu
+progetti_mondo = f"{val_wo:,}".replace(',', '.') if isinstance(val_wo, int) else val_wo
 
 # Metriche
 col1, col2, col3 = st.columns(3)
@@ -136,6 +141,9 @@ with col3:
 
 st.markdown("---")
 
+if tematica == "Nucleare":
+    st.caption("* In Italia non sono presenti centrali nucleari attive per la produzione di energia elettrica. I progetti mostrati riguardano siti di ricerca o in fase di decommissioning (smantellamento).")
+    
 # Mostra tabelle progetti
 if st.session_state.get("show_italy"):
     st.subheader("🇮🇹 Progetti in Italia")

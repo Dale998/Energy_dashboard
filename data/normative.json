@@ -90,6 +90,39 @@
       "url": "https://commission.europa.eu/strategy-and-policy/priorities-2019-2024/european-green-deal_it"
     },
     {
+      "id": "NORM-EU-NUC-001",
+      "titolo": "Trattato Euratom (1957)",
+      "giurisdizione": "europa",
+      "anno": 1957,
+      "stato": "vigente",
+      "fonti_applicabili": ["Nucleare"],
+      "descrizione": "Base giuridica fondamentale per l'energia nucleare in UE.",
+      "punti_principali": ["Sviluppo energia nucleare", "Sicurezza approvvigionamenti", "Salvaguardie materiali"],
+      "url": "https://eur-lex.europa.eu/legal-content/IT/TXT/?uri=CELEX:11957A/TXT"
+    },
+    {
+      "id": "NORM-EU-NUC-002",
+      "titolo": "Direttiva 2009/71/Euratom (Sicurezza Nucleare)",
+      "giurisdizione": "europa",
+      "anno": 2009,
+      "stato": "vigente",
+      "fonti_applicabili": ["Nucleare"],
+      "descrizione": "Quadro comunitario per la sicurezza degli impianti nucleari.",
+      "punti_principali": ["Responsabilità dell'operatore", "Indipendenza autorità regolazione", "Stress test obbligatori"],
+      "url": "https://eur-lex.europa.eu/legal-content/IT/TXT/?uri=CELEX:32009L0071"
+    },
+    {
+      "id": "NORM-EU-NUC-003",
+      "titolo": "Tassonomia UE (Regolamento 2020/852)",
+      "giurisdizione": "europa",
+      "anno": 2022,
+      "stato": "vigente",
+      "fonti_applicabili": ["Nucleare", "Idrogeno", "Data Center"],
+      "descrizione": "Classificazione delle attività economiche sostenibili.",
+      "punti_principali": ["Nucleare come attività transitoria sostenibile", "Criteri 'Do No Significant Harm'", "Accesso a finanziamenti green"],
+      "url": "https://eur-lex.europa.eu/legal-content/IT/TXT/?uri=CELEX:32020R0852"
+    },
+    {
       "id": "NORM-IT-001",
       "titolo": "D.Lgs. 9 gennaio 2026, n. 5",
       "giurisdizione": "italia",
@@ -162,6 +195,28 @@
         "Norme per l'integrazione nella rete gas nazionale"
       ],
       "url": "https://www.gazzettaufficiale.it/eli/id/2022/10/26/22A06066/SG"
+    },
+    {
+      "id": "NORM-IT-NUC-001",
+      "titolo": "D.Lgs. 31/2010 (Deposito Nazionale)",
+      "giurisdizione": "italia",
+      "anno": 2010,
+      "stato": "vigente",
+      "fonti_applicabili": ["Nucleare"],
+      "descrizione": "Disciplina la localizzazione e costruzione del deposito nazionale rifiuti radioattivi.",
+      "punti_principali": ["Stoccaggio definitivo", "Consultazione pubblica (CNAI/DN)", "Ruolo Sogin"],
+      "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:2010-02-15;31"
+    },
+    {
+      "id": "NORM-IT-NUC-002",
+      "titolo": "D.Lgs. 101/2020 (Radioprotezione)",
+      "giurisdizione": "italia",
+      "anno": 2020,
+      "stato": "vigente",
+      "fonti_applicabili": ["Nucleare", "Data Center", "Cogenerazione"],
+      "descrizione": "Norme fondamentali di sicurezza contro i pericoli derivanti dalle radiazioni ionizzanti.",
+      "punti_principali": ["Protezione lavoratori e popolazione", "Limiti di dose", "Vigilanza ISIN"],
+      "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:2020-07-31;101"
     }
   ]
 }

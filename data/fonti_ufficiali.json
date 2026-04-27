@@ -28,6 +28,20 @@
       "tipo": "Istituzione UE",
       "descrizione": "Strategie energetiche europee, piani d'azione (es. REPowerEU) e direttive.",
       "fonti_applicabili": ["Biocarburanti e Biogas", "Idrogeno", "Nucleare", "Geotermico", "Cogenerazione", "Data Center"]
+    },
+    {
+      "nome": "IAEA - International Atomic Energy Agency",
+      "url": "https://www.iaea.org",
+      "tipo": "Organizzazione Internazionale",
+      "descrizione": "Statistiche globali (PRIS database) e standard di sicurezza nucleare mondiale.",
+      "fonti_applicabili": ["Nucleare", "Idrogeno"]
+    },
+    {
+      "nome": "ISIN - Ispettorato per la sicurezza nucleare",
+      "url": "https://www.isinucleare.it",
+      "tipo": "Ente Nazionale di Vigilanza (Italia)",
+      "descrizione": "Vigilanza tecnica, controllo radiometrico e sicurezza nucleare sul territorio italiano.",
+      "fonti_applicabili": ["Nucleare"]
     }
   ]
 }
