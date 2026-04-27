@@ -417,6 +417,39 @@
       "descrizione": "Standard tecnici e semplificazioni per piccoli impianti e pompe di calore.",
       "punti_principali": ["Semplificazione per sonde geotermiche", "Standard per l'installazione in ambito domestico e terziario"],
       "url": "https://www.mase.gov.it/portale/-/geotermia-dal-mase-nuove-semplificazioni-per-impianti-a-servizio-di-edifici-e-imprese"
+    },
+    {
+      "id": "NORM-IT-CHP-001",
+      "titolo": "D.Lgs. 8 febbraio 2007, n. 20",
+      "giurisdizione": "italia",
+      "anno": 2007,
+      "stato": "vigente",
+      "fonti_applicabili": ["Cogenerazione"],
+      "descrizione": "Normativa base italiana che recepisce la prima direttiva europea sulla cogenerazione.",
+      "punti_principali": ["Definizione di Cogenerazione ad Alto Rendimento (CAR)", "Metodologia di calcolo del risparmio di energia primaria (PES)", "Garanzia di origine dell'elettricità da CAR"],
+      "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:2007-02-08;20"
+    },
+    {
+      "id": "NORM-IT-CHP-002",
+      "titolo": "D.M. 4 agosto 2011 (Incentivazione CAR)",
+      "giurisdizione": "italia",
+      "anno": 2011,
+      "stato": "vigente",
+      "fonti_applicabili": ["Cogenerazione"],
+      "descrizione": "Regola i regimi di sostegno per la cogenerazione ad alto rendimento.",
+      "punti_principali": ["Criteri tecnici per il riconoscimento della CAR", "Accesso al meccanismo dei Certificati Bianchi (TEE)", "Parametri di efficienza per motori e turbine"],
+      "url": "https://www.mimit.gov.it/images/stories/normativa/DM-4-AGOSTO-2011-2.pdf"
+    },
+    {
+      "id": "NORM-IT-CHP-003",
+      "titolo": "Sistema dei Certificati Bianchi (TEE)",
+      "giurisdizione": "italia",
+      "anno": 2017,
+      "stato": "vigente",
+      "fonti_applicabili": ["Cogenerazione", "Data Center", "Idrogeno"],
+      "descrizione": "Principale strumento di incentivazione dell'efficienza energetica in Italia.",
+      "punti_principali": ["Titoli di Efficienza Energetica negoziabili", "Riconoscimento dei risparmi conseguiti tramite impianti CAR", "Gestione affidata al GSE"],
+      "url": "https://www.gse.it/servizi-per-te/efficienza-energetica/certificati-bianchi"
     }
   ]
 }

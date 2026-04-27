@@ -84,6 +84,13 @@
       "tipo": "Associazione Tecnica (Italia)",
       "descrizione": "Associazione che promuove la ricerca e la diffusione delle conoscenze sulla geotermia in Italia.",
       "fonti_applicabili": ["Geotermico"]
+    },
+    {
+      "nome": "COGEN Europe",
+      "url": "https://www.cogeneurope.eu",
+      "tipo": "Associazione Europea",
+      "descrizione": "L'associazione europea per la promozione della cogenerazione, fonte di dati e policy a livello UE.",
+      "fonti_applicabili": ["Cogenerazione"]
     }
   ]
 }

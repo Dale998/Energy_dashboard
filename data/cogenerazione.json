@@ -1,132 +1,48 @@
 {
   "tematica": "Cogenerazione",
-  "descrizione": "Progetti e normative relative alla cogenerazione (CHP - Combined Heat and Power)",
+  "descrizione": "Produzione combinata di energia elettrica e calore (CHP). Tecnologia chiave per l'efficienza industriale, il teleriscaldamento urbano e la riduzione delle emissioni di CO2.",
+  "ultima_modifica": "2026-04-27",
+  "statistiche": {
+    "italia": 1850,
+    "europa": 15400,
+    "mondo": 68000
+  },
   "progetti": {
     "italia": [
-      {
-        "id": "COG-IT-001",
-        "nome": "Impianto Cogenerazione Milano",
-        "regione": "Lombardia",
-        "capacita_mw": 100,
-        "stato": "attivo",
-        "descrizione": "Impianto CHP ad alta efficienza per riscaldamento e energia",
-        "investimento_milioni_euro": 80,
-        "luogo": "Milano",
-        "lat": 45.4642,
-        "lon": 9.19,
-        "url": "https://example.com/chp-milano",
-        "data_aggiornamento": "2025-04-25"
-      },
-      {
-        "id": "COG-IT-EXTRA-1",
-        "nome": "Progetto Cogenerazione Italia 1",
-        "regione": "Italia",
-        "capacita_mw": 10,
-        "stato": "attivo",
-        "descrizione": "Progetto di cogenerazione in Italia",
-        "investimento_milioni_euro": 20,
-        "luogo": "Roma",
-        "lat": 41.9028,
-        "lon": 12.4964,
-        "url": "https://www.gse.it/",
-        "data_aggiornamento": "2026-04-25T14:54:20.816587"
-      },
-      {
-        "id": "COG-IT-EXTRA-2",
-        "nome": "Progetto Cogenerazione Italia 2",
-        "regione": "Italia",
-        "capacita_mw": 15,
-        "stato": "attivo",
-        "descrizione": "Progetto di cogenerazione in Italia",
-        "investimento_milioni_euro": 30,
-        "luogo": "Roma",
-        "lat": 41.9028,
-        "lon": 12.4964,
-        "url": "https://www.gse.it/",
-        "data_aggiornamento": "2026-04-25T14:54:20.816596"
-      }
+      { "id": "CHP-IT-01", "nome": "Centrale EniPower Ferrera Erbognone", "regione": "Lombardia", "capacita_mw": 1000, "stato": "attivo", "descrizione": "Uno dei più grandi impianti di cogenerazione industriale in Europa, fornisce energia e vapore alla raffineria Eni.", "luogo": "Ferrera Erbognone (PV)", "lat": 45.1167, "lon": 8.8667, "url": "https://www.enipower.it" },
+      { "id": "CHP-IT-02", "nome": "Polo Energetico Iren Moncalieri", "regione": "Piemonte", "capacita_mw": 800, "stato": "attivo", "descrizione": "Centrale fondamentale per il teleriscaldamento di Torino, una delle reti più estese d'Italia.", "luogo": "Moncalieri (TO)", "lat": 44.9967, "lon": 7.6917, "url": "https://www.gruppoiren.it" },
+      { "id": "CHP-IT-03", "nome": "Cogenerazione Lucart (Cartiera)", "regione": "Toscana", "capacita_mw": 12, "stato": "attivo", "descrizione": "Esempio d'eccellenza nell'industria cartaria: autoproduzione di elettricità e vapore per i processi produttivi.", "luogo": "Diecimo (LU)", "lat": 43.9533, "lon": 10.5167, "url": "https://www.lucartgroup.com" },
+      { "id": "CHP-IT-04", "nome": "Centrale A2A Lamarmora", "regione": "Lombardia", "capacita_mw": 150, "stato": "attivo", "descrizione": "Storico impianto di cogenerazione per il teleriscaldamento della città di Brescia.", "luogo": "Brescia", "lat": 45.5244, "lon": 10.2117, "url": "https://www.a2a.eu" },
+      { "id": "CHP-IT-05", "nome": "Cogenerazione Ospedale Udine", "regione": "Friuli-Venezia Giulia", "capacita_mw": 5, "stato": "attivo", "descrizione": "Impianto CAR che garantisce continuità elettrica e calore (acqua calda e vapore) alla struttura sanitaria.", "luogo": "Udine", "lat": 46.0667, "lon": 13.2333, "url": "https://www.asufc.sanita.fvg.it" },
+      { "id": "CHP-IT-06", "nome": "Stabilimento Ferrari Maranello", "regione": "Emilia-Romagna", "capacita_mw": 15, "stato": "attivo", "descrizione": "Sistema di trigenerazione (elettricità, calore, freddo) per alimentare la produzione e i banchi prova motori.", "luogo": "Maranello (MO)", "lat": 44.5308, "lon": 10.8644, "url": "https://www.ferrari.com" },
+      { "id": "CHP-IT-07", "nome": "Barilla Parma (Pedrignano)", "regione": "Emilia-Romagna", "capacita_mw": 18, "stato": "attivo", "descrizione": "Cogenerazione ad alto rendimento per il più grande pastificio del mondo.", "luogo": "Parma", "lat": 44.8333, "lon": 10.3833, "url": "https://www.barillagroup.com" },
+      { "id": "CHP-IT-08", "nome": "Aeroporto Milano Malpensa", "regione": "Lombardia", "capacita_mw": 25, "stato": "attivo", "descrizione": "Centrale di trigenerazione che soddisfa l'intero fabbisogno energetico dei terminal aeroportuali.", "luogo": "Ferno (VA)", "lat": 45.6300, "lon": 8.7255, "url": "https://www.seamilano.eu" },
+      { "id": "CHP-IT-09", "nome": "Pastificio Rummo", "regione": "Campania", "capacita_mw": 2.5, "stato": "attivo", "descrizione": "Trigenerazione integrata per l'efficienza energetica del processo di essiccazione della pasta.", "luogo": "Benevento", "lat": 41.1333, "lon": 14.7833, "url": "https://www.pastarummo.it" },
+      { "id": "CHP-IT-10", "nome": "Politecnico di Milano (Campus Leonardo)", "regione": "Lombardia", "capacita_mw": 2, "stato": "attivo", "descrizione": "Impianto didattico e produttivo per la climatizzazione del campus universitario.", "luogo": "Milano", "lat": 45.4781, "lon": 9.2272, "url": "https://www.polimi.it" }
     ],
     "europa": [
-      {
-        "id": "COG-EU-001",
-        "nome": "Rete Teleriscaldamento Copenaghen",
-        "paese": "Danimarca",
-        "capacita_mw": 2500,
-        "stato": "attivo",
-        "descrizione": "Una delle maggiori reti di teleriscaldamento europee con CHP",
-        "investimento_milioni_euro": 3500,
-        "luogo": "Copenaghen",
-        "lat": 55.6761,
-        "lon": 12.5683,
-        "url": "https://www.varme.dk/",
-        "data_aggiornamento": "2025-04-25"
-      }
+      { "id": "CHP-EU-01", "nome": "Centrale Reuter West", "paese": "Germania", "capacita_mw": 600, "stato": "attivo", "descrizione": "Perno del teleriscaldamento di Berlino, integra cogenerazione e accumulo termico (Power-to-Heat).", "lat": 52.5353, "lon": 13.2381, "url": "https://www.vattenfall.de" },
+      { "id": "CHP-EU-02", "nome": "Amager Bakke (Copenhill)", "paese": "Danimarca", "capacita_mw": 60, "stato": "attivo", "descrizione": "Termovalorizzatore iconico che produce elettricità e calore per 150.000 case a Copenaghen.", "lat": 55.6886, "lon": 12.6225, "url": "https://www.a-r-c.dk" },
+      { "id": "CHP-EU-03", "nome": "BASF Verbund Ludwigshafen", "paese": "Germania", "capacita_mw": 1200, "stato": "attivo", "descrizione": "Il più grande sito chimico del mondo, alimentato da un sistema di cogenerazione ad altissima efficienza.", "lat": 49.4967, "lon": 8.4333, "url": "https://www.basf.com" },
+      { "id": "CHP-EU-04", "nome": "Helsinki District Heating (Helen)", "paese": "Finlandia", "capacita_mw": 900, "stato": "attivo", "descrizione": "Sistema integrato che utilizza cogenerazione e pompe di calore su scala cittadina.", "lat": 60.1699, "lon": 24.9384, "url": "https://www.helen.fi" },
+      { "id": "CHP-EU-05", "nome": "Port of Rotterdam Industrial CHP", "paese": "Paesi Bassi", "capacita_mw": 1500, "stato": "attivo", "descrizione": "Cluster di impianti CHP a servizio delle raffinerie e dell'industria chimica del porto.", "lat": 51.9492, "lon": 4.1481, "url": "https://www.portofrotterdam.com" },
+      { "id": "CHP-EU-06", "nome": "Wien Energie Spittelau", "paese": "Austria", "capacita_mw": 40, "stato": "attivo", "descrizione": "Famoso impianto di termovalorizzazione e cogenerazione nel centro di Vienna.", "lat": 48.2351, "lon": 16.3591, "url": "https://www.wienenergie.at" },
+      { "id": "CHP-EU-07", "nome": "Stockholm Exergi Värtaverket", "paese": "Svezia", "capacita_mw": 190, "stato": "attivo", "descrizione": "Cogenerazione a biomassa che riscalda gran parte della capitale svedese.", "lat": 59.3508, "lon": 18.1056, "url": "https://www.stockholmexergi.se" },
+      { "id": "CHP-EU-08", "nome": "Warsaw District Heating (PGNiG)", "paese": "Polonia", "capacita_mw": 1000, "stato": "attivo", "descrizione": "La rete di teleriscaldamento più grande d'Europa, alimentata da diverse centrali CHP.", "lat": 52.2297, "lon": 21.0122, "url": "https://www.termika.pgnig.pl" },
+      { "id": "CHP-EU-09", "nome": "Dalkia Lyon-Gerland", "paese": "Francia", "capacita_mw": 25, "stato": "attivo", "descrizione": "Cogenerazione a biomassa per il teleriscaldamento urbano sostenibile di Lione.", "lat": 45.7244, "lon": 4.8325, "url": "https://www.dalkia.fr" },
+      { "id": "CHP-EU-10", "nome": "Energotrans Prague", "paese": "Rep. Ceca", "capacita_mw": 300, "stato": "attivo", "descrizione": "Fornisce calore alla città di Praga tramite una condotta di oltre 30 km.", "lat": 50.0755, "lon": 14.4378, "url": "https://www.cez.cz" }
     ],
     "mondo": [
-      {
-        "id": "COG-WORLD-001",
-        "nome": "Impianti CHP Russia",
-        "paese": "Russia",
-        "capacita_mw": 50000,
-        "stato": "attivo",
-        "descrizione": "Vasti impianti di cogenerazione in tutta la Russia",
-        "investimento_milioni_euro": 50000,
-        "luogo": "Russia",
-        "lat": 61.524,
-        "lon": 105.3188,
-        "url": "https://example.com/chp-russia",
-        "data_aggiornamento": "2025-04-25"
-      }
+      { "id": "CHP-W-01", "nome": "Hudson Yards Microgrid", "paese": "USA", "capacita_mw": 13, "stato": "attivo", "descrizione": "Microrete urbana a New York con cogenerazione per garantire resilienza energetica al quartiere.", "lat": 40.7539, "lon": -74.0003, "url": "https://www.hudsonyardsnewyork.com" },
+      { "id": "CHP-W-02", "nome": "UC San Diego Microgrid", "paese": "USA", "capacita_mw": 30, "stato": "attivo", "descrizione": "Uno dei campus universitari più efficienti al mondo grazie a cogenerazione e accumulo.", "lat": 32.8801, "lon": -117.2340, "url": "https://ucsd.edu" },
+      { "id": "CHP-W-03", "nome": "Seoul District Heating Corp", "paese": "Corea del Sud", "capacita_mw": 2000, "stato": "attivo", "descrizione": "Massiccio sistema di cogenerazione che serve l'area metropolitana di Seoul.", "lat": 37.5665, "lon": 126.9780, "url": "https://www.kdhc.co.kr" },
+      { "id": "CHP-W-04", "nome": "Tokyo Gas Senju CHP", "paese": "Giappone", "capacita_mw": 50, "stato": "attivo", "descrizione": "Sistema di cogenerazione urbana ad alta efficienza per aree commerciali e residenziali.", "lat": 35.7483, "lon": 139.7981, "url": "https://www.tokyo-gas.co.jp" },
+      { "id": "CHP-W-05", "nome": "Enwave Toronto", "paese": "Canada", "capacita_mw": 40, "stato": "attivo", "descrizione": "Combina cogenerazione e Deep Lake Water Cooling per servire il centro di Toronto.", "lat": 43.6532, "lon": -79.3832, "url": "https://www.enwave.com" },
+      { "id": "CHP-W-06", "nome": "Beijing District Heating Group", "paese": "Cina", "capacita_mw": 3000, "stato": "attivo", "descrizione": "Rete colossale alimentata da moderne centrali a gas in cogenerazione.", "lat": 39.9042, "lon": 116.4074, "url": "https://www.bdhg.com.cn" },
+      { "id": "CHP-W-07", "nome": "Toyota Kentucky CHP", "paese": "USA", "capacita_mw": 20, "stato": "attivo", "descrizione": "Cogenerazione alimentata da gas di discarica per ridurre l'impronta carbonica dello stabilimento.", "lat": 38.2091, "lon": -84.5586, "url": "https://www.toyotamanufacturing.com" },
+      { "id": "CHP-W-08", "nome": "DEWA Jebel Ali Power Plant", "paese": "UAE", "capacita_mw": 2000, "stato": "attivo", "descrizione": "Impianto combinato per produzione di energia e dissalazione dell'acqua tramite calore residuo.", "lat": 25.0114, "lon": 55.1051, "url": "https://www.dewa.gov.ae" },
+      { "id": "CHP-W-09", "nome": "Reliance Jamnagar Refinery", "paese": "India", "capacita_mw": 1500, "stato": "attivo", "descrizione": "Sito industriale massiccio con cogenerazione integrata per processi petrolchimici.", "lat": 22.4707, "lon": 70.0577, "url": "https://www.ril.com" },
+      { "id": "CHP-W-10", "nome": "Hospital Albert Einstein São Paulo", "paese": "Brasile", "capacita_mw": 4, "stato": "attivo", "descrizione": "Trigenerazione per garantire energia critica e climatizzazione a uno dei migliori ospedali del Sud America.", "lat": -23.5997, "lon": -46.7156, "url": "https://www.einstein.br" }
     ]
-  },
-  "normative": {
-    "italia": [
-      {
-        "id": "NORM-IT-COG-001",
-        "titolo": "Decreto Legislativo 8 febbraio 2007 n.20 - Cogenerazione",
-        "tipo": "Decreto Legislativo",
-        "anno": 2007,
-        "descrizione": "Promozione della cogenerazione ad alto rendimento",
-        "punti_principali": [
-          "Definizione di cogenerazione ad alto rendimento",
-          "Incentivi e agevolazioni fiscali",
-          "Tariffe omnicomprensive per l'immissione in rete",
-          "Efficienza energetica superiore al 70%"
-        ],
-        "url": "https://www.normattiva.it/ricerca/cogenerazione",
-        "data_aggiornamento": "2025-04-25"
-      }
-    ],
-    "europa": [
-      {
-        "id": "NORM-EU-COG-001",
-        "titolo": "Direttiva (UE) 2012/27/UE - Efficienza energetica (rifusa 2023/1791)",
-        "tipo": "Direttiva UE",
-        "anno": 2012,
-        "descrizione": "Promozione dell'efficienza energetica e della cogenerazione",
-        "punti_principali": [
-          "Obiettivi di efficienza energetica 42.5% entro 2030",
-          "Priorità per CHP ad alto rendimento",
-          "Teleriscaldamento e teleraffreddamento",
-          "Obbligo di valutazione della fattibilità"
-        ],
-        "url": "https://eur-lex.europa.eu/legal-content/IT/TXT/?uri=CELEX:32012L0027",
-        "data_aggiornamento": "2025-04-25"
-      }
-    ]
-  },
-  "fonti_ufficiali": [
-    {
-      "nome": "COGEN Europe",
-      "url": "https://www.cogeneurope.eu/",
-      "tipo": "Associazione europea",
-      "descrizione": "Associazione europea per la promozione della cogenerazione"
-    },
-    {
-      "nome": "GSE - Gestore Servizi Energetici",
-      "url": "https://www.gse.it/",
-      "tipo": "Agenzia italiana",
-      "descrizione": "Gestione degli incentivi per energia da fonti rinnovabili"
-    }
-  ]
+  }
 }
