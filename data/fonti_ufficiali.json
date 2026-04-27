@@ -70,6 +70,20 @@
       "tipo": "Agenzia Governativa (Italia)",
       "descrizione": "Promuove e verifica la resilienza delle infrastrutture digitali critiche in Italia (NIS2).",
       "fonti_applicabili": ["Data Center"]
+    },
+    {
+      "nome": "EGEC - European Geothermal Energy Council",
+      "url": "https://www.egec.org",
+      "tipo": "Associazione Europea",
+      "descrizione": "Voce del settore geotermico in Europa, pubblica report annuali sui trend di mercato e policy.",
+      "fonti_applicabili": ["Geotermico"]
+    },
+    {
+      "nome": "UGI - Unione Geotermica Italiana",
+      "url": "https://www.unionegeotermica.it",
+      "tipo": "Associazione Tecnica (Italia)",
+      "descrizione": "Associazione che promuove la ricerca e la diffusione delle conoscenze sulla geotermia in Italia.",
+      "fonti_applicabili": ["Geotermico"]
     }
   ]
 }

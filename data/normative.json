@@ -200,6 +200,28 @@
       "url": "https://eur-lex.europa.eu/legal-content/IT/TXT/?uri=CELEX:32019R0424"
     },
     {
+      "id": "NORM-EU-GEO-001",
+      "titolo": "Direttiva Case Green - EPBD (UE 2024/1275)",
+      "giurisdizione": "europa",
+      "anno": 2024,
+      "stato": "vigente",
+      "fonti_applicabili": ["Geotermico", "Cogenerazione"],
+      "descrizione": "Promuove l'efficienza energetica degli edifici e l'integrazione di pompe di calore geotermiche.",
+      "punti_principali": ["Edifici a emissioni zero entro il 2050", "Eliminazione graduale caldaie a fossili", "Incentivi per sistemi di riscaldamento rinnovabili"],
+      "url": "https://eur-lex.europa.eu/legal-content/IT/ALL/?uri=CELEX:32024L1275"
+    },
+    {
+      "id": "NORM-EU-GEO-002",
+      "titolo": "Direttiva Emissioni Industriali - IED (2010/75/UE)",
+      "giurisdizione": "europa",
+      "anno": 2010,
+      "stato": "vigente",
+      "fonti_applicabili": ["Geotermico", "Biocarburanti e Biogas", "Cogenerazione"],
+      "descrizione": "Regola le emissioni degli impianti industriali di grandi dimensioni.",
+      "punti_principali": ["Applicazione alle centrali geotermiche ad alta entalpia", "Uso delle migliori tecniche disponibili (BAT)", "Monitoraggio rigoroso delle emissioni atmosferiche"],
+      "url": "https://eur-lex.europa.eu/legal-content/IT/TXT/?uri=CELEX:32010L0075"
+    },
+    {
       "id": "NORM-IT-001",
       "titolo": "D.Lgs. 9 gennaio 2026, n. 5",
       "giurisdizione": "italia",
@@ -373,6 +395,28 @@
         "Integrazione dei data center nel 'Perimetro di Sicurezza Nazionale'"
       ],
       "url": "https://www.camera.it/temiap/documentazione/temi/pdf/1286457.pdf?_1652864686374"
+    },
+    {
+      "id": "NORM-IT-GEO-001",
+      "titolo": "D.Lgs. 22/2010 (Legge Quadro Geotermia)",
+      "giurisdizione": "italia",
+      "anno": 2010,
+      "stato": "vigente",
+      "fonti_applicabili": ["Geotermico"],
+      "descrizione": "Normativa principale italiana per il riassetto delle disposizioni in materia di energia geotermica.",
+      "punti_principali": ["Classificazione risorse (Alta/Media/Bassa entalpia)", "Regolamentazione permessi di ricerca e concessioni", "Distinzione tra uso energetico e usi diretti (calore)"],
+      "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:2010-02-11;22"
+    },
+    {
+      "id": "NORM-IT-GEO-002",
+      "titolo": "Linee Guida Bassa Entalpia (MASE)",
+      "giurisdizione": "italia",
+      "anno": 2023,
+      "stato": "vigente",
+      "fonti_applicabili": ["Geotermico"],
+      "descrizione": "Standard tecnici e semplificazioni per piccoli impianti e pompe di calore.",
+      "punti_principali": ["Semplificazione per sonde geotermiche", "Standard per l'installazione in ambito domestico e terziario"],
+      "url": "https://www.mase.gov.it/portale/-/geotermia-dal-mase-nuove-semplificazioni-per-impianti-a-servizio-di-edifici-e-imprese"
     }
   ]
 }

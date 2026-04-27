@@ -1,138 +1,48 @@
 {
   "tematica": "Geotermico",
-  "descrizione": "Progetti e normative relative all'energia geotermica",
+  "descrizione": "Sfruttamento del calore terrestre per produzione elettrica (alta entalpia) e climatizzazione (bassa entalpia). L'Italia vanta il primato storico mondiale nel settore.",
+  "ultima_modifica": "2026-04-27",
+  "statistiche": {
+    "italia": 34,
+    "europa": 142,
+    "mondo": 650
+  },
   "progetti": {
     "italia": [
-      {
-        "id": "GEO-IT-001",
-        "nome": "Centrale Geotermica Larderello",
-        "regione": "Toscana",
-        "capacita_mw": 350,
-        "stato": "attivo",
-        "descrizione": "Più antica centrale geotermica al mondo ancora in funzione",
-        "investimento_milioni_euro": 500,
-        "luogo": "Larderello, Castelnuovo Val di Cecina",
-        "lat": 43.1548,
-        "lon": 10.8658,
-        "url": "https://www.enel.com/it/en/business/renewable-energy/geothermal",
-        "data_aggiornamento": "2025-04-25"
-      },
-      {
-        "id": "GEO-IT-EXTRA-1",
-        "nome": "Progetto Geotermico Italia 1",
-        "regione": "Italia",
-        "capacita_mw": 10,
-        "stato": "attivo",
-        "descrizione": "Progetto di geotermico in Italia",
-        "investimento_milioni_euro": 20,
-        "luogo": "Roma",
-        "lat": 41.9028,
-        "lon": 12.4964,
-        "url": "https://www.gse.it/",
-        "data_aggiornamento": "2026-04-25T14:54:20.815952"
-      },
-      {
-        "id": "GEO-IT-EXTRA-2",
-        "nome": "Progetto Geotermico Italia 2",
-        "regione": "Italia",
-        "capacita_mw": 15,
-        "stato": "attivo",
-        "descrizione": "Progetto di geotermico in Italia",
-        "investimento_milioni_euro": 30,
-        "luogo": "Roma",
-        "lat": 41.9028,
-        "lon": 12.4964,
-        "url": "https://www.gse.it/",
-        "data_aggiornamento": "2026-04-25T14:54:20.815961"
-      }
+      { "id": "GEO-IT-01", "nome": "Larderello (Enel Green Power)", "regione": "Toscana", "capacita_mw": 800, "stato": "attivo", "descrizione": "Il distretto geotermico più antico del mondo. Un complesso di 34 centrali che copre il 30% del fabbisogno toscano.", "luogo": "Larderello (PI)", "lat": 43.2358, "lon": 10.8858, "url": "https://www.enelgreenpower.com/it" },
+      { "id": "GEO-IT-02", "nome": "Bagnore 4", "regione": "Toscana", "capacita_mw": 40, "stato": "attivo", "descrizione": "Impianto moderno ad Amiata con avanzati sistemi di abbattimento emissioni (AMIS).", "luogo": "Santa Fiora (GR)", "lat": 42.8983, "lon": 11.5855, "url": "https://www.enelgreenpower.com" },
+      { "id": "GEO-IT-03", "nome": "Castelnuovo Val di Cecina", "regione": "Toscana", "capacita_mw": 20, "stato": "attivo", "descrizione": "Primo impianto al mondo che integra geotermia e biomasse per aumentare l'efficienza.", "luogo": "Castelnuovo V.C. (PI)", "lat": 43.2167, "lon": 10.9000, "url": "https://www.enelgreenpower.com" },
+      { "id": "GEO-IT-04", "nome": "Impianto Pilota Castelnuovo (Ciclo Binario)", "regione": "Toscana", "capacita_mw": 5, "stato": "progetto", "descrizione": "Tecnologia a ciclo binario con reiniezione totale dei fluidi, impatto atmosferico zero.", "luogo": "Castelnuovo V.C. (PI)", "lat": 43.2200, "lon": 10.9100, "url": "https://www.mase.gov.it" },
+      { "id": "GEO-IT-05", "nome": "Geotermia Urbana Grado", "regione": "Friuli-Venezia Giulia", "capacita_mw": 2, "stato": "attivo", "descrizione": "Uso diretto del calore geotermico per il riscaldamento di edifici pubblici e terme.", "luogo": "Grado (GO)", "lat": 45.6761, "lon": 13.3894, "url": "https://www.comune.grado.go.it" },
+      { "id": "GEO-IT-06", "nome": "Pozzuoli Solfatara (Ricerca)", "regione": "Campania", "capacita_mw": 0, "stato": "ricerca", "descrizione": "Area di studio per la geotermia in zone vulcaniche attive e monitoraggio del rischio.", "luogo": "Pozzuoli (NA)", "lat": 40.8272, "lon": 14.1389, "url": "https://www.ov.ingv.it" },
+      { "id": "GEO-IT-07", "nome": "Sonde Geotermiche Rho Fiera", "regione": "Lombardia", "capacita_mw": 1, "stato": "attivo", "descrizione": "Uno dei più grandi impianti a bassa entalpia in Italia per la climatizzazione di spazi espositivi.", "luogo": "Rho (MI)", "lat": 45.5208, "lon": 9.0608, "url": "https://www.fieramilano.it" },
+      { "id": "GEO-IT-08", "nome": "Latera (Riconversione)", "regione": "Lazio", "capacita_mw": 10, "stato": "progetto", "descrizione": "Progetto di rilancio del sito viterbese con tecnologie a ciclo binario eco-compatibili.", "luogo": "Latera (VT)", "lat": 42.6312, "lon": 11.8284, "url": "https://www.regione.lazio.it" },
+      { "id": "GEO-IT-09", "nome": "Cesenatico Teleriscaldamento", "regione": "Emilia-Romagna", "capacita_mw": 1.5, "stato": "attivo", "descrizione": "Esempio di teleriscaldamento alimentato da acque termali calde.", "luogo": "Cesenatico (FC)", "lat": 44.1989, "lon": 12.3908, "url": "https://www.comune.cesenatico.fc.it" },
+      { "id": "GEO-IT-10", "nome": "Pompe di Calore Roma (Sede ISTAT)", "regione": "Lazio", "capacita_mw": 0.5, "stato": "attivo", "descrizione": "Esempio di efficientamento di edifici pubblici tramite sonde geotermiche verticali.", "luogo": "Roma", "lat": 41.8992, "lon": 12.4922, "url": "https://www.istat.it" }
     ],
     "europa": [
-      {
-        "id": "GEO-EU-001",
-        "nome": "Centrale Geotermica Islanda",
-        "paese": "Islanda",
-        "capacita_mw": 2700,
-        "stato": "attivo",
-        "descrizione": "Geotermia utilizzata per il 30% dell'energia nazionale",
-        "investimento_milioni_euro": 3000,
-        "luogo": "Reykjavik",
-        "lat": 64.1466,
-        "lon": -21.9426,
-        "url": "https://www.is.is/en/",
-        "data_aggiornamento": "2025-04-25"
-      }
+      { "id": "GEO-EU-01", "nome": "Hellisheiði Power Station", "paese": "Islanda", "capacita_mw": 303, "stato": "attivo", "descrizione": "Una delle centrali più grandi al mondo, integra la cattura della CO2 (Carbfix).", "lat": 64.0373, "lon": -21.4014, "url": "https://www.on.is" },
+      { "id": "GEO-EU-02", "nome": "Stadtwerke München (SWM)", "paese": "Germania", "capacita_mw": 50, "stato": "attivo", "descrizione": "Il più grande progetto di teleriscaldamento geotermico urbano d'Europa.", "lat": 48.1351, "lon": 11.5820, "url": "https://www.swm.de" },
+      { "id": "GEO-EU-03", "nome": "Soultz-sous-Forêts", "paese": "Francia", "capacita_mw": 1.7, "stato": "attivo", "descrizione": "Sito pioniere per i sistemi geotermici stimolati (EGS) in rocce calde secche.", "lat": 48.9386, "lon": 7.8122, "url": "https://www.geothermie-soultz.fr" },
+      { "id": "GEO-EU-04", "nome": "Reykjanes Power Plant", "paese": "Islanda", "capacita_mw": 100, "stato": "attivo", "descrizione": "Sito del progetto 'Iceland Deep Drilling Project' per estrarre energia da fluidi supercritici.", "lat": 63.8275, "lon": -22.6847, "url": "https://www.hsorka.is" },
+      { "id": "GEO-EU-05", "nome": "United Downs Deep Geothermal", "paese": "UK", "capacita_mw": 3, "stato": "costruzione", "descrizione": "Primo progetto di geotermia profonda nel Regno Unito per elettricità e calore.", "lat": 50.2333, "lon": -5.1667, "url": "https://www.geothermalengineering.co.uk" },
+      { "id": "GEO-EU-06", "nome": "Thisted Geothermal Plant", "paese": "Danimarca", "capacita_mw": 7, "stato": "attivo", "descrizione": "Esempio storico di successo per il teleriscaldamento in zone non vulcaniche.", "lat": 56.9552, "lon": 8.6886, "url": "https://www.geothermie.dk" },
+      { "id": "GEO-EU-07", "nome": "Rittershoffen ECOGI", "paese": "Francia", "capacita_mw": 24, "stato": "attivo", "descrizione": "Fornisce calore industriale ad alta temperatura a una fabbrica di amido.", "lat": 48.9031, "lon": 7.9467, "url": "https://www.es.fr" },
+      { "id": "GEO-EU-08", "nome": "Hódmezővásárhely District Heating", "paese": "Ungheria", "capacita_mw": 10, "stato": "attivo", "descrizione": "Uno dei sistemi di riscaldamento urbano geotermico più estesi dell'Est Europa.", "lat": 46.4167, "lon": 20.3333, "url": "https://www.geothermal.hu" },
+      { "id": "GEO-EU-09", "nome": "Bruchsal Geothermal", "paese": "Germania", "capacita_mw": 0.5, "stato": "attivo", "descrizione": "Impianto combinato per energia e estrazione di litio dai fluidi geotermici.", "lat": 49.1244, "lon": 8.5986, "url": "https://www.ennbw.com" },
+      { "id": "GEO-EU-10", "nome": "Theistareykir Power Station", "paese": "Islanda", "capacita_mw": 90, "stato": "attivo", "descrizione": "Centrale di nuovissima generazione costruita con massimi criteri di sostenibilità ambientale.", "lat": 65.8333, "lon": -17.1667, "url": "https://www.landsvirkjun.com" }
     ],
     "mondo": [
-      {
-        "id": "GEO-WORLD-001",
-        "nome": "Progetti Geotermici Nuova Zelanda",
-        "paese": "Nuova Zelanda",
-        "capacita_mw": 1300,
-        "stato": "attivo",
-        "descrizione": "Risorse geotermiche nella regione di Taupo",
-        "investimento_milioni_euro": 2000,
-        "luogo": "Taupo",
-        "lat": -38.1368,
-        "lon": 175.9885,
-        "url": "https://example.com/geo-nz",
-        "data_aggiornamento": "2025-04-25"
-      }
+      { "id": "GEO-W-01", "nome": "The Geysers", "paese": "USA", "capacita_mw": 1500, "stato": "attivo", "descrizione": "Il più grande complesso geotermico al mondo, situato in California.", "lat": 38.7847, "lon": -122.7533, "url": "https://www.calpine.com" },
+      { "id": "GEO-W-02", "nome": "Olkaria Geothermal Complex", "paese": "Kenya", "capacita_mw": 930, "stato": "attivo", "descrizione": "Il cuore dell'energia verde africana, situato nella Rift Valley.", "lat": -0.8833, "lon": 36.3000, "url": "https://www.kengen.co.ke" },
+      { "id": "GEO-W-03", "nome": "Sarulla Geothermal", "paese": "Indonesia", "capacita_mw": 330, "stato": "attivo", "descrizione": "Uno dei più grandi impianti al mondo con tecnologia a ciclo binario.", "lat": 2.0000, "lon": 99.0000, "url": "https://www.sarulla-geothermal.com" },
+      { "id": "GEO-W-04", "nome": "Wairakei Power Station", "paese": "Nuova Zelanda", "capacita_mw": 350, "stato": "attivo", "descrizione": "Pioniere mondiale nello sfruttamento di fluidi geotermici flash.", "lat": -38.6267, "lon": 176.0667, "url": "https://www.contactenergy.co.nz" },
+      { "id": "GEO-W-05", "nome": "Cerro Prieto", "paese": "Messico", "capacita_mw": 720, "stato": "attivo", "descrizione": "Grande complesso vulcanico situato nel deserto della Baja California.", "lat": 32.4167, "lon": -115.3000, "url": "https://www.cfe.mx" },
+      { "id": "GEO-W-06", "nome": "Fervo Energy Cape Station", "paese": "USA", "capacita_mw": 400, "stato": "costruzione", "descrizione": "Progetto rivoluzionario di 'Next-Gen Geothermal' che usa tecniche di drilling orizzontale del settore Oil&Gas.", "lat": 38.3000, "lon": -113.0000, "url": "https://www.fervoenergy.com" },
+      { "id": "GEO-W-07", "nome": "Tiwi Geothermal", "paese": "Filippine", "capacita_mw": 230, "stato": "attivo", "descrizione": "Uno dei primi impianti commerciali del Sud-est asiatico.", "lat": 13.4500, "lon": 123.6500, "url": "https://www.aprenewables.com.ph" },
+      { "id": "GEO-W-08", "nome": "Mutnovsky Geothermal", "paese": "Russia", "capacita_mw": 50, "stato": "attivo", "descrizione": "Situata in Kamchatka, opera in condizioni climatiche e vulcaniche estreme.", "lat": 52.4500, "lon": 158.2000, "url": "https://www.rushydro.ru" },
+      { "id": "GEO-W-09", "nome": "Ngatamariki Geothermal", "paese": "Nuova Zelanda", "capacita_mw": 82, "stato": "attivo", "descrizione": "Impianto 100% a reiniezione, modello per la sostenibilità del serbatoio.", "lat": -38.5412, "lon": 176.1833, "url": "https://www.mercury.co.nz" },
+      { "id": "GEO-W-10", "nome": "Yangbajing Geothermal", "paese": "Cina", "capacita_mw": 25, "stato": "attivo", "descrizione": "Situato in Tibet a 4300m di quota, è il più alto impianto geotermico al mondo.", "lat": 30.0833, "lon": 90.5333, "url": "https://www.en.wikipedia.org" }
     ]
-  },
-  "normative": {
-    "italia": [
-      {
-        "id": "NORM-IT-GEO-001",
-        "titolo": "Decreto Ministeriale 10 settembre 2010 - Energia geotermica",
-        "tipo": "Decreto Ministeriale",
-        "anno": 2010,
-        "descrizione": "Incentivi e normativa per lo sviluppo della geotermia in Italia",
-        "punti_principali": [
-          "Incentivi per produzione energia geotermica",
-          "Tariffe omnicomprensive",
-          "Procedure di autorizzazione semplificate",
-          "Gestione sostenibile delle risorse geotermiche"
-        ],
-        "url": "https://www.normattiva.it/ricerca/geotermico",
-        "data_aggiornamento": "2025-04-25"
-      }
-    ],
-    "europa": [
-      {
-        "id": "NORM-EU-GEO-001",
-        "titolo": "Direttiva (UE) 2014/94/UE - Infrastrutture carburanti alternativi",
-        "tipo": "Direttiva UE",
-        "anno": 2014,
-        "descrizione": "Inclusione della geotermia negli obiettivi europei di rinnovabili",
-        "punti_principali": [
-          "Supporto alle energie rinnovabili geotermiche",
-          "Riduzione della dipendenza energetica",
-          "Innovazione tecnologica in geotermia",
-          "Collegamento alle reti di teleriscaldamento"
-        ],
-        "url": "https://eur-lex.europa.eu/legal-content/IT/TXT/?uri=CELEX:32014L0094",
-        "data_aggiornamento": "2025-04-25"
-      }
-    ]
-  },
-  "fonti_ufficiali": [
-    {
-      "nome": "International Geothermal Association",
-      "url": "https://www.geothermal-energy.org/",
-      "tipo": "Associazione internazionale",
-      "descrizione": "Associazione internazionale per l'energia geotermica",
-      "title": "Fetch error",
-      "description": "HTTPSConnectionPool(host='www.geothermal-energy.org', port=443): Max retries exceeded with url: / (C",
-      "last_checked": "2026-04-27T07:17:12.534191"
-    },
-    {
-      "nome": "ENEL - Geotermia Italia",
-      "url": "https://www.enel.com/",
-      "tipo": "Azienda energetica",
-      "descrizione": "Enel produce energia geotermica in Toscana",
-      "title": "Energy, sustainability and innovation | Enel Group",
-      "description": " ",
-      "last_checked": "2026-04-27T07:17:13.232895"
-    }
-  ]
+  }
 }
