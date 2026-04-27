@@ -103,8 +103,8 @@ if st.sidebar.button("🔄 Aggiorna fonti ufficiali"):
         st.sidebar.success("✅ Fonti aggiornate!")
         tematica_data = load_tematica_data(tematica)
 
-st.sidebar.markdown("---")
-st.sidebar.markdown("**Nota:** I dati vengono caricati da file JSON strutturati nella cartella `/data`")
+#st.sidebar.markdown("---")
+#st.sidebar.markdown("**Nota:** I dati vengono caricati da file JSON strutturati nella cartella `/data`")
 
 # Display principale
 st.header(f"📊 {tematica_data.get('tematica', tematica)}")
@@ -143,7 +143,7 @@ st.markdown("---")
 
 if tematica == "Nucleare":
     st.caption("* In Italia non sono presenti centrali nucleari attive per la produzione di energia elettrica. I progetti mostrati riguardano siti di ricerca o in fase di decommissioning (smantellamento).")
-    
+
 # Mostra tabelle progetti
 if st.session_state.get("show_italy"):
     st.subheader("🇮🇹 Progetti in Italia")
