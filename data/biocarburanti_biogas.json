@@ -1,6 +1,7 @@
 {
   "tematica": "Biocarburanti e Biogas",
   "descrizione": "Progetti, impianti attivi e normative relative alla produzione di biometano, biogas e biocarburanti avanzati in Italia e nel mondo.",
+  "ultima_modifica": "2026-04-27",
   "statistiche": {
     "italia": 1900,
     "europa": 22678,
@@ -43,19 +44,5 @@
       { "id": "BIO-WORLD-009", "nome": "Indore Bio-CNG Plant", "paese": "India", "capacita_mw": 8.5, "stato": "attivo", "descrizione": "Il più grande impianto asiatico per la conversione di rifiuti urbani in gas per autotrazione (Bio-CNG).", "investimento_milioni_euro": 18, "luogo": "Indore, Madhya Pradesh", "lat": 22.7196, "lon": 75.8577, "url": "https://bioenergyconsultant.com/gobardhan-bio-cng-plant-in-indore/", "data_aggiornamento": "2026-04-27" },
       { "id": "BIO-WORLD-010", "nome": "Saint-Hyacinthe Biomethanation", "paese": "Canada", "capacita_mw": 5.0, "stato": "attivo", "descrizione": "Modello di economia circolare cittadina, trasforma i rifiuti di 100.000 cittadini in gas naturale rinnovabile.", "investimento_milioni_euro": 60, "luogo": "Saint-Hyacinthe, QC", "lat": 45.6275, "lon": -72.9669, "url": "https://www.ville.st-hyacinthe.qc.ca/services-aux-citoyens/environnement/biomethanisation", "data_aggiornamento": "2026-04-27" }
     ]
-  },
-  "fonti_ufficiali": [
-    {
-      "nome": "GSE - Gestore Servizi Energetici",
-      "url": "https://www.gse.it/servizi-per-te/fonti-rinnovabili/biometano",
-      "tipo": "Ente Pubblico Nazionale",
-      "descrizione": "Dati ufficiali, incentivi e normative sulla produzione di biometano in Italia."
-    },
-    {
-      "nome": "European Biogas Association (EBA)",
-      "url": "https://www.europeanbiogas.eu/",
-      "tipo": "Associazione Europea",
-      "descrizione": "Mappe statistiche (Biomethane Map) e report sul settore del biogas in Europa."
-    }
-  ]
+  }
 }

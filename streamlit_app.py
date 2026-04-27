@@ -255,6 +255,25 @@ with col_norm2:
 # Fonti ufficiali
 st.subheader("🔗 Fonti ufficiali")
 fonti = tematica_data.get('fonti_ufficiali', [])
+def load_all_fonti():
+    filepath = os.path.join(DATA_DIR, "fonti.json")
+    if os.path.exists(filepath):
+        try:
+            with open(filepath, 'r', encoding='utf-8') as f:
+                return json.load(f).get("fonti", [])
+        except Exception as e:
+            st.error(f"Errore nel caricamento del database fonti: {e}")
+    return []
+
+tutte_le_fonti = load_all_fonti()
+
+# Filtra solo le fonti che si applicano alla tematica selezionata
+fonti = [
+    fonte for fonte in tutte_le_fonti 
+    if tematica in fonte.get('fonti_applicabili', [])
+]
+# ---------------------------------------------------------------
+
 if fonti:
     cols = st.columns(min(3, len(fonti)))
     for idx, fonte in enumerate(fonti):
@@ -266,5 +285,13 @@ if fonti:
                 if fonte.get('url'):
                     st.markdown(f"[🌐 Visita il sito]({fonte.get('url')})")
 
+
 st.divider()
-st.caption(f"Dashboard aggiornata: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}")
+# Cerca se c'è una data di ultima modifica nel JSON, altrimenti usa una stringa vuota
+data_dati = tematica_data.get('ultima_modifica', 'Non disponibile')
+
+col_footer1, col_footer2 = st.columns(2)
+with col_footer1:
+    st.caption(f"📅 Ultimo aggiornamento dati: **{data_dati}**")
+with col_footer2:
+    st.caption(f"👁️ Pagina generata il: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}")

@@ -96,6 +96,9 @@ def refresh_sources_for_tematica(tematica_file):
             logger.info(f"✅ Aggiornato: {metadata['title']}")
             time.sleep(0.5)  # Evita throttling
     
+    # Aggiorna la data all'istante in cui lo script viene eseguito
+    data['ultima_modifica'] = datetime.now().strftime('%Y-%m-%d')
+
     return data
 
 def refresh_all_sources():

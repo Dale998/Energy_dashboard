@@ -1,0 +1,33 @@
+{
+  "ultima_modifica": "2026-04-27",
+  "fonti": [
+    {
+      "nome": "GSE - Gestore Servizi Energetici",
+      "url": "https://www.gse.it",
+      "tipo": "Ente Pubblico Nazionale (Italia)",
+      "descrizione": "Dati ufficiali, incentivi (es. fondi PNRR) e normative sulle fonti rinnovabili in Italia.",
+      "fonti_applicabili": ["Biocarburanti e Biogas", "Idrogeno", "Geotermico", "Cogenerazione"]
+    },
+    {
+      "nome": "European Biogas Association (EBA)",
+      "url": "https://www.europeanbiogas.eu/",
+      "tipo": "Associazione Europea",
+      "descrizione": "Mappe statistiche (Biomethane Map) e report sul settore del biogas e biometano in Europa.",
+      "fonti_applicabili": ["Biocarburanti e Biogas"]
+    },
+    {
+      "nome": "IRENA - Agenzia internazionale rinnovabili",
+      "url": "https://www.irena.org/",
+      "tipo": "Agenzia Internazionale",
+      "descrizione": "Dati, statistiche globali e scenari di transizione energetica a livello mondiale.",
+      "fonti_applicabili": ["Biocarburanti e Biogas", "Idrogeno", "Geotermico", "Nucleare", "Cogenerazione"]
+    },
+    {
+      "nome": "Commissione Europea - Energia",
+      "url": "https://energy.ec.europa.eu/index_en",
+      "tipo": "Istituzione UE",
+      "descrizione": "Strategie energetiche europee, piani d'azione (es. REPowerEU) e direttive.",
+      "fonti_applicabili": ["Biocarburanti e Biogas", "Idrogeno", "Nucleare", "Geotermico", "Cogenerazione", "Data Center"]
+    }
+  ]
+}
