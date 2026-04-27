@@ -189,8 +189,28 @@ else:
 # Normative
 st.subheader("📜 Normativa vigente")
 
-normative_it = tematica_data.get('normative', {}).get('italia', [])
-normative_eu = tematica_data.get('normative', {}).get('europa', [])
+def load_all_normative():
+    filepath = os.path.join(DATA_DIR, "normative.json")
+    if os.path.exists(filepath):
+        try:
+            with open(filepath, 'r', encoding='utf-8') as f:
+                return json.load(f).get("normative", [])
+        except Exception as e:
+            st.error(f"Errore nel caricamento del database normative: {e}")
+    return []
+
+tutte_le_normative = load_all_normative()
+
+# Filtra solo le normative che contengono la tematica attuale nella lista "fonti_applicabili"
+normative_correnti = [
+    norm for norm in tutte_le_normative 
+    if tematica in norm.get('fonti_applicabili', [])
+]
+
+# Separa le normative filtrate per giurisdizione
+normative_it = [n for n in normative_correnti if n.get('giurisdizione') == 'italia']
+normative_eu = [n for n in normative_correnti if n.get('giurisdizione') == 'europa']
+# ------------------------------------------------------------------
 
 col_norm1, col_norm2 = st.columns(2)
 

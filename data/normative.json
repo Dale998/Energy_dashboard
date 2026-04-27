@@ -1,0 +1,167 @@
+{
+  "ultima_modifica": "2026-04-27",
+  "normative": [
+    {
+      "id": "NORM-EU-001",
+      "titolo": "Direttiva (UE) 2023/2413 – RED III",
+      "giurisdizione": "europa",
+      "anno": 2023,
+      "stato": "vigente",
+      "fonti_applicabili": ["Biocarburanti e Biogas", "Idrogeno", "Geotermico", "Cogenerazione"],
+      "descrizione": "Aggiornamento della direttiva sulle energie rinnovabili con target vincolanti più ambiziosi al 2030 (almeno 42,5%).",
+      "punti_principali": [
+        "Settore trasporti: 29% di rinnovabili entro il 2030",
+        "Rafforzamento criteri di sostenibilità per biocarburanti e biogas",
+        "Introduzione e rafforzamento tracciabilità e bilancio di massa",
+        "Include esplicitamente RFNBO (es. idrogeno verde)"
+      ],
+      "url": "https://eur-lex.europa.eu/eli/dir/2023/2413/oj"
+    },
+    {
+      "id": "NORM-EU-002",
+      "titolo": "Direttiva (UE) 2018/2001 – RED II",
+      "giurisdizione": "europa",
+      "anno": 2018,
+      "stato": "vigente (modificata da RED III)",
+      "fonti_applicabili": ["Biocarburanti e Biogas", "Geotermico", "Cogenerazione", "Idrogeno"],
+      "descrizione": "Quadro normativo base per le rinnovabili, fissa i criteri di sostenibilità e tracciabilità.",
+      "punti_principali": [
+        "Introduzione dei criteri di sostenibilità per biocarburanti, bioliquidi e biometano",
+        "Base normativa per i sistemi di certificazione europei",
+        "Obiettivi specifici per i biocarburanti avanzati"
+      ],
+      "url": "https://eur-lex.europa.eu/legal-content/IT/TXT/?uri=CELEX:32018L2001"
+    },
+    {
+      "id": "NORM-EU-003",
+      "titolo": "Direttiva (UE) 2015/1513 – ILUC",
+      "giurisdizione": "europa",
+      "anno": 2015,
+      "stato": "integrata",
+      "fonti_applicabili": ["Biocarburanti e Biogas"],
+      "descrizione": "Direttiva storica per limitare l'impatto del cambio indiretto di uso del suolo (ILUC).",
+      "punti_principali": [
+        "Limite (~7%) ai biocarburanti di prima generazione",
+        "Incentivi ai biocarburanti avanzati da rifiuti o residui"
+      ],
+      "url": "https://eur-lex.europa.eu/legal-content/IT/TXT/?uri=celex%3A32015L1513"
+    },
+    {
+      "id": "NORM-EU-004",
+      "titolo": "Direttiva 2009/28/CE – RED I",
+      "giurisdizione": "europa",
+      "anno": 2009,
+      "stato": "superata",
+      "fonti_applicabili": ["Biocarburanti e Biogas", "Geotermico", "Cogenerazione"],
+      "descrizione": "Primo quadro storico UE per le energie rinnovabili (Target 2020).",
+      "punti_principali": [
+        "Target 10% rinnovabili nei trasporti al 2020",
+        "Introduzione dei primi criteri storici di sostenibilità"
+      ],
+      "url": "https://eur-lex.europa.eu/legal-content/IT/ALL/?uri=celex%3A32009L0028"
+    },
+    {
+      "id": "NORM-EU-005",
+      "titolo": "Direttiva (UE) 2024/1405",
+      "giurisdizione": "europa",
+      "anno": 2024,
+      "stato": "vigente",
+      "fonti_applicabili": ["Biocarburanti e Biogas"],
+      "descrizione": "Aggiornamento tecnico degli allegati della RED II sulle materie prime.",
+      "punti_principali": [
+        "Estensione materie prime per biocarburanti avanzati e biogas per trasporti",
+        "Distinzione rigorosa tra materie avanzate (prioritarie) e convenzionali (limitate)"
+      ],
+      "url": "https://eur-lex.europa.eu/legal-content/IT/TXT/?uri=CELEX%3A32024D1405"
+    },
+    {
+      "id": "NORM-EU-006",
+      "titolo": "Quadro Strategico UE (Green Deal)",
+      "giurisdizione": "europa",
+      "anno": 2019,
+      "stato": "vigente",
+      "fonti_applicabili": ["Biocarburanti e Biogas", "Idrogeno", "Nucleare", "Data Center", "Geotermico", "Cogenerazione"],
+      "descrizione": "Macro-strategia per raggiungere la neutralità climatica in Europa entro il 2050.",
+      "punti_principali": [
+        "Inserisce biogas, biometano e idrogeno nella strategia di decarbonizzazione",
+        "Promozione massiccia dell'economia circolare",
+        "Sostituzione progressiva dei combustibili fossili in tutti i settori"
+      ],
+      "url": "https://commission.europa.eu/strategy-and-policy/priorities-2019-2024/european-green-deal_it"
+    },
+    {
+      "id": "NORM-IT-001",
+      "titolo": "D.Lgs. 9 gennaio 2026, n. 5",
+      "giurisdizione": "italia",
+      "anno": 2026,
+      "stato": "vigente",
+      "fonti_applicabili": ["Biocarburanti e Biogas", "Idrogeno", "Geotermico", "Cogenerazione"],
+      "descrizione": "Decreto di recepimento nazionale della Direttiva RED III.",
+      "punti_principali": [
+        "Aggiornamento target rinnovabili nei trasporti",
+        "Nuove regole su obblighi di immissione in consumo di biocarburanti",
+        "Riconoscimento del biometano nei trasporti",
+        "Adeguamento del precedente D.Lgs. 199/2021"
+      ],
+      "url": "https://www.gazzettaufficiale.it"
+    },
+    {
+      "id": "NORM-IT-002",
+      "titolo": "D.Lgs. 8 novembre 2021, n. 199",
+      "giurisdizione": "italia",
+      "anno": 2021,
+      "stato": "vigente (modificato)",
+      "fonti_applicabili": ["Biocarburanti e Biogas", "Idrogeno", "Geotermico", "Cogenerazione"],
+      "descrizione": "Decreto di recepimento della RED II, definisce il quadro degli incentivi italiani.",
+      "punti_principali": [
+        "Quadro italiano per energie rinnovabili, biocarburanti e biometano",
+        "Definizione degli obiettivi nazionali e dei criteri di sostenibilità"
+      ],
+      "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:2021-11-08;199"
+    },
+    {
+      "id": "NORM-IT-003",
+      "titolo": "D.M. 7 agosto 2024 (SNC)",
+      "giurisdizione": "italia",
+      "anno": 2024,
+      "stato": "vigente",
+      "fonti_applicabili": ["Biocarburanti e Biogas"],
+      "descrizione": "Sistema Nazionale di Certificazione (SNC) della sostenibilità.",
+      "punti_principali": [
+        "Sistema per certificare sostenibilità di biocarburanti, biometano e carburanti da carbonio riciclato",
+        "Alternativa agli schemi volontari UE",
+        "Requisito obbligatorio per l'accesso agli incentivi statali"
+      ],
+      "url": "https://www.mase.gov.it"
+    },
+    {
+      "id": "NORM-IT-004",
+      "titolo": "D.M. 14 novembre 2019",
+      "giurisdizione": "italia",
+      "anno": 2019,
+      "stato": "vigente",
+      "fonti_applicabili": ["Biocarburanti e Biogas"],
+      "descrizione": "Regolamentazione storica per la certificazione dei biocarburanti.",
+      "punti_principali": [
+        "Regola i sistemi di certificazione nazionale per bioliquidi e biometano",
+        "Consente l'accesso agli incentivi fiscali"
+      ],
+      "url": "https://www.mase.gov.it"
+    },
+    {
+      "id": "NORM-IT-005",
+      "titolo": "Decreti Biometano (D.M. 2018 / D.M. 2022)",
+      "giurisdizione": "italia",
+      "anno": 2022,
+      "stato": "vigente",
+      "fonti_applicabili": ["Biocarburanti e Biogas"],
+      "descrizione": "Decreti attuativi per il supporto e l'incentivazione della filiera del biometano.",
+      "punti_principali": [
+        "Incentivi alla produzione e immissione in rete del biometano (fondi PNRR)",
+        "Supporto specifico all'uso nel settore dei trasporti",
+        "Norme per l'integrazione nella rete gas nazionale"
+      ],
+      "url": "https://www.mase.gov.it/pagina/biometano"
+    }
+  ]
+}

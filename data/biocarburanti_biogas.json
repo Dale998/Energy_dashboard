@@ -44,42 +44,6 @@
       { "id": "BIO-WORLD-010", "nome": "Saint-Hyacinthe Biomethanation", "paese": "Canada", "capacita_mw": 5.0, "stato": "attivo", "descrizione": "Modello di economia circolare cittadina, trasforma i rifiuti di 100.000 cittadini in gas naturale rinnovabile.", "investimento_milioni_euro": 60, "luogo": "Saint-Hyacinthe, QC", "lat": 45.6275, "lon": -72.9669, "url": "https://www.ville.st-hyacinthe.qc.ca/services-aux-citoyens/environnement/biomethanisation", "data_aggiornamento": "2026-04-27" }
     ]
   },
-  "normative": {
-    "italia": [
-      {
-        "id": "NORM-IT-BIO-001",
-        "titolo": "Decreto Biometano 2022 (D.M. 15 settembre 2022)",
-        "tipo": "Decreto Ministeriale",
-        "anno": 2022,
-        "descrizione": "Decreto che attua le misure del PNRR per sostenere la produzione di biometano immesso nella rete del gas naturale.",
-        "punti_principali": [
-          "Incentivi in conto capitale (fino al 40% dell'investimento) tramite fondi PNRR",
-          "Tariffe incentivanti applicate alla produzione netta di biometano",
-          "Promozione di pratiche agroecologiche e uso di scarti agricoli",
-          "Riconversione degli impianti biogas agricoli esistenti"
-        ],
-        "url": "https://www.gazzettaufficiale.it/eli/id/2022/10/26/22A06066/SG",
-        "data_aggiornamento": "2026-04-27"
-      }
-    ],
-    "europa": [
-      {
-        "id": "NORM-EU-BIO-001",
-        "titolo": "Piano REPowerEU - Biomethane Action Plan",
-        "tipo": "Piano Strategico UE",
-        "anno": 2022,
-        "descrizione": "Iniziativa della Commissione Europea per aumentare drasticamente la produzione di biometano al fine di ridurre la dipendenza dai combustibili fossili russi.",
-        "punti_principali": [
-          "Obiettivo di produzione di 35 miliardi di metri cubi (bcm) di biometano entro il 2030",
-          "Creazione di un partenariato industriale per il biometano",
-          "Semplificazione delle procedure autorizzative per nuovi impianti",
-          "Sviluppo di infrastrutture di rete compatibili con il biometano"
-        ],
-        "url": "https://energy.ec.europa.eu/topics/renewable-energy/bioenergy/biomethane_en",
-        "data_aggiornamento": "2026-04-27"
-      }
-    ]
-  },
   "fonti_ufficiali": [
     {
       "nome": "GSE - Gestore Servizi Energetici",
