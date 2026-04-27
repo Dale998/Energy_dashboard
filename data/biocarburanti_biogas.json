@@ -1,81 +1,193 @@
 {
   "tematica": "Biocarburanti e Biogas",
-  "descrizione": "Progetti e normative relative a biocarburanti e biogas",
+  "descrizione": "Progetti, impianti attivi e normative relative alla produzione di biometano, biogas e biocarburanti avanzati in Italia e nel mondo.",
   "progetti": {
     "italia": [
       {
         "id": "BIO-IT-001",
-        "nome": "Impianto Biogas Lombardia",
+        "nome": "Impianto Biometano Sant'Agata Bolognese (Gruppo Hera)",
+        "regione": "Emilia-Romagna",
+        "capacita_mw": 3.5,
+        "stato": "attivo",
+        "descrizione": "Impianto all'avanguardia che trasforma la frazione organica dei rifiuti (FORSU) in biometano e compost di alta qualità. Produce circa 7,5 milioni di metri cubi di biometano all'anno.",
+        "investimento_milioni_euro": 37,
+        "luogo": "Sant'Agata Bolognese (BO)",
+        "lat": 44.6644,
+        "lon": 11.1355,
+        "url": "https://www.gruppohera.it/gruppo/sostenibilita/ambiente/economia-circolare/limpianto-a-biometano-di-santagata-bolognese",
+        "data_aggiornamento": "2026-04-27"
+      },
+      {
+        "id": "BIO-IT-002",
+        "nome": "Polo Ecologico Integrato - Acea Pinerolese",
+        "regione": "Piemonte",
+        "capacita_mw": 1.5,
+        "stato": "attivo",
+        "descrizione": "Polo ecologico per il trattamento dei rifiuti organici e la produzione di biometano, pioniere in Italia per l'economia circolare e l'integrazione con la rete gas.",
+        "investimento_milioni_euro": 15,
+        "luogo": "Pinerolo (TO)",
+        "lat": 44.8856,
+        "lon": 7.3325,
+        "url": "https://ambiente.aceapinerolese.it/polo-ecologico/",
+        "data_aggiornamento": "2026-04-27"
+      },
+      {
+        "id": "BIO-IT-003",
+        "nome": "Montello S.p.A. - Polo Biometano FORSU",
         "regione": "Lombardia",
-        "capacita_mw": 2,
+        "capacita_mw": 10.0,
         "stato": "attivo",
-        "descrizione": "Impianto di biogas da rifiuti agricoli e organici",
+        "descrizione": "Uno dei maggiori poli in Europa per il recupero di plastica e rifiuti organici. La FORSU viene trasformata in biometano iniettato direttamente nella rete nazionale e in anidride carbonica per uso industriale.",
+        "investimento_milioni_euro": 50,
+        "luogo": "Montello (BG)",
+        "lat": 45.6361,
+        "lon": 9.8052,
+        "url": "https://www.montello-spa.it/divisione-organico/",
+        "data_aggiornamento": "2026-04-27"
+      },
+      {
+        "id": "BIO-IT-004",
+        "nome": "Impianto Bio-LNG Schiavon",
+        "regione": "Veneto",
+        "capacita_mw": 3.0,
+        "stato": "attivo",
+        "descrizione": "Primo grande impianto italiano per la produzione di Biometano Liquefatto (Bio-LNG) derivante da reflui zootecnici (letame e liquame), destinato all'autotrasporto pesante.",
+        "investimento_milioni_euro": 12,
+        "luogo": "Schiavon (VI)",
+        "lat": 45.6981,
+        "lon": 11.6422,
+        "url": "https://www.consorziobiogas.it",
+        "data_aggiornamento": "2026-04-27"
+      },
+      {
+        "id": "BIO-IT-005",
+        "nome": "Asola Energie Biogas (Snam Bioenerys)",
+        "regione": "Lombardia",
+        "capacita_mw": 1.0,
+        "stato": "attivo",
+        "descrizione": "Impianto agricolo del gruppo Bioenerys (Snam) dedicato alla valorizzazione degli scarti agricoli del territorio mantovano, contribuendo alla decarbonizzazione del settore primario.",
         "investimento_milioni_euro": 5,
-        "luogo": "Brescia",
-        "lat": 45.5416,
-        "lon": 10.2118,
-        "url": "https://example.com/biogas-lombardia",
-        "data_aggiornamento": "2025-04-25"
+        "luogo": "Asola (MN)",
+        "lat": 45.2215,
+        "lon": 10.4131,
+        "url": "https://www.snam.it/it/transizione-energetica/biometano.html",
+        "data_aggiornamento": "2026-04-27"
       },
       {
-        "id": "BIO-IT-EXTRA-1",
-        "nome": "Progetto Biocarburanti e Biogas Italia 1",
-        "regione": "Italia",
-        "capacita_mw": 10,
+        "id": "BIO-IT-006",
+        "nome": "Impianto Retina Biometano",
+        "regione": "Lazio",
+        "capacita_mw": 2.5,
         "stato": "attivo",
-        "descrizione": "Progetto di biocarburanti e biogas in Italia",
-        "investimento_milioni_euro": 20,
-        "luogo": "Roma",
-        "lat": 41.9028,
-        "lon": 12.4964,
-        "url": "https://www.gse.it/",
-        "data_aggiornamento": "2026-04-25T14:54:20.815415"
-      },
-      {
-        "id": "BIO-IT-EXTRA-2",
-        "nome": "Progetto Biocarburanti e Biogas Italia 2",
-        "regione": "Italia",
-        "capacita_mw": 15,
-        "stato": "attivo",
-        "descrizione": "Progetto di biocarburanti e biogas in Italia",
-        "investimento_milioni_euro": 30,
-        "luogo": "Roma",
-        "lat": 41.9028,
-        "lon": 12.4964,
-        "url": "https://www.gse.it/",
-        "data_aggiornamento": "2026-04-25T14:54:20.815424"
+        "descrizione": "Recente impianto entrato in esercizio tra fine 2025 e inizio 2026. Fa parte di un maxi-piano per il potenziamento della produzione di biometano da scarti agricoli nel Sud e Centro Italia.",
+        "investimento_milioni_euro": 28,
+        "luogo": "Velletri (RM)",
+        "lat": 41.6866,
+        "lon": 12.7777,
+        "url": "https://www.retinabiometano.com/it/",
+        "data_aggiornamento": "2026-04-27"
       }
     ],
     "europa": [
       {
         "id": "BIO-EU-001",
-        "nome": "Bioenergy Valley Germania",
-        "paese": "Germania",
-        "capacita_mw": 500,
+        "nome": "Nature Energy Korskro",
+        "paese": "Danimarca",
+        "capacita_mw": 25.0,
         "stato": "attivo",
-        "descrizione": "La più grande valle dell'energia da biogas in Europa",
-        "investimento_milioni_euro": 2000,
-        "luogo": "Baviera",
-        "lat": 48.1351,
-        "lon": 11.582,
-        "url": "https://www.europeanbiogas.eu/country/germany/",
-        "data_aggiornamento": "2025-04-25"
+        "descrizione": "Uno dei più grandi impianti di biogas al mondo. Tratta circa 700.000 tonnellate di biomassa all'anno, principalmente letame agricolo e scarti alimentari, immettendo biometano nella rete danese.",
+        "investimento_milioni_euro": 50,
+        "luogo": "Korskro",
+        "lat": 55.5412,
+        "lon": 8.5831,
+        "url": "https://natureenergy.dk/en/facilities",
+        "data_aggiornamento": "2026-04-27"
+      },
+      {
+        "id": "BIO-EU-002",
+        "nome": "EnviTec Bio-LNG Güstrow",
+        "paese": "Germania",
+        "capacita_mw": 10.0,
+        "stato": "attivo",
+        "descrizione": "Nato come impianto a biogas, è stato riconvertito nel 2023 diventando il più grande impianto integrato in Germania per la produzione di Bio-LNG (biometano liquido) da scarti agricoli.",
+        "investimento_milioni_euro": 45,
+        "luogo": "Güstrow, Meclemburgo-Pomerania",
+        "lat": 53.8052,
+        "lon": 12.1951,
+        "url": "https://www.envitec-biogas.com/",
+        "data_aggiornamento": "2026-04-27"
+      },
+      {
+        "id": "BIO-EU-003",
+        "nome": "Biogaz du Pays de Meaux",
+        "paese": "Francia",
+        "capacita_mw": 2.2,
+        "stato": "attivo",
+        "descrizione": "Uno dei più grandi impianti di biometano agricolo in Francia. Sfrutta colture intercalari e scarti zootecnici di decine di aziende agricole locali per fornire gas alla regione dell'Ile-de-France.",
+        "investimento_milioni_euro": 14,
+        "luogo": "Chauconin-Neufmontiers",
+        "lat": 48.9701,
+        "lon": 2.8465,
+        "url": "https://www.grdf.fr",
+        "data_aggiornamento": "2026-04-27"
+      },
+      {
+        "id": "BIO-EU-004",
+        "nome": "Parque Tecnológico Valdemingómez",
+        "paese": "Spagna",
+        "capacita_mw": 15.0,
+        "stato": "attivo",
+        "descrizione": "Enorme complesso per il trattamento dei rifiuti solidi urbani della città di Madrid. Estrae biogas dalle discariche e dai biodigestori, purificandolo in biometano iniettato nella rete Enagas.",
+        "investimento_milioni_euro": 120,
+        "luogo": "Madrid",
+        "lat": 40.3441,
+        "lon": -3.6114,
+        "url": "https://prmv.madrid.es/",
+        "data_aggiornamento": "2026-04-27"
       }
     ],
     "mondo": [
       {
         "id": "BIO-WORLD-001",
-        "nome": "Progetto Biocarburanti Brasile",
+        "nome": "Impianto Biogas Raízen - Guariba",
         "paese": "Brasile",
-        "capacita_mw": 5000,
+        "capacita_mw": 21.0,
         "stato": "attivo",
-        "descrizione": "Vasta produzione di biocarburanti da canna da zucchero",
-        "investimento_milioni_euro": 10000,
-        "luogo": "San Paolo",
-        "lat": -23.5505,
-        "lon": -46.6333,
-        "url": "https://example.com/biocarburanti-brasile",
-        "data_aggiornamento": "2025-04-25"
+        "descrizione": "Uno dei più grandi impianti di biogas agricolo del Sud America. Utilizza la vinassa, un sottoprodotto della lavorazione della canna da zucchero, per generare elettricità per la rete nazionale.",
+        "investimento_milioni_euro": 40,
+        "luogo": "Guariba, San Paolo",
+        "lat": -21.3653,
+        "lon": -48.2275,
+        "url": "https://www.raizen.com.br/en/business/renewables/biogas",
+        "data_aggiornamento": "2026-04-27"
+      },
+      {
+        "id": "BIO-WORLD-002",
+        "nome": "Archaea Energy Assai RNG Plant (BP)",
+        "paese": "Stati Uniti",
+        "capacita_mw": 40.0,
+        "stato": "attivo",
+        "descrizione": "Il più grande impianto al mondo per la produzione di RNG (Renewable Natural Gas) catturato dalle discariche. Riduce enormemente le emissioni di metano convertendo il gas di scarico in energia pulita.",
+        "investimento_milioni_euro": 115,
+        "luogo": "Dunmore, Pennsylvania",
+        "lat": 41.4243,
+        "lon": -75.5891,
+        "url": "https://archaeaenergy.com/",
+        "data_aggiornamento": "2026-04-27"
+      },
+      {
+        "id": "BIO-WORLD-003",
+        "nome": "Sudokwon Landfill Gas Power Plant",
+        "paese": "Corea del Sud",
+        "capacita_mw": 50.0,
+        "stato": "attivo",
+        "descrizione": "Sorge su una delle discariche più grandi del mondo. Cattura i gas di decomposizione dei rifiuti e alimenta una massiccia centrale elettrica, fornendo energia a migliaia di case nella regione di Incheon.",
+        "investimento_milioni_euro": 150,
+        "luogo": "Incheon",
+        "lat": 37.5815,
+        "lon": 126.6213,
+        "url": "https://eng.slc.or.kr/",
+        "data_aggiornamento": "2026-04-27"
       }
     ]
   },
@@ -83,50 +195,50 @@
     "italia": [
       {
         "id": "NORM-IT-BIO-001",
-        "titolo": "Decreto Ministeriale 5 luglio 2012 - Criteri di sostenibilità biocarburanti",
+        "titolo": "Decreto Biometano 2022 (D.M. 15 settembre 2022)",
         "tipo": "Decreto Ministeriale",
-        "anno": 2012,
-        "descrizione": "Criteri di sostenibilità e tracciabilità per biocarburanti in Italia",
+        "anno": 2022,
+        "descrizione": "Decreto che attua le misure del PNRR per sostenere la produzione di biometano immesso nella rete del gas naturale.",
         "punti_principali": [
-          "Requisiti di sostenibilità per biocarburanti",
-          "Tracciabilità della filiera",
-          "Riduzione delle emissioni di gas serra",
-          "Certificazioni obbligatorie"
+          "Incentivi in conto capitale (fino al 40% dell'investimento) tramite fondi PNRR",
+          "Tariffe incentivanti applicate alla produzione netta di biometano",
+          "Promozione di pratiche agroecologiche e uso di scarti agricoli",
+          "Riconversione degli impianti biogas agricoli esistenti"
         ],
-        "url": "https://www.normattiva.it/ricerca/biocarburanti",
-        "data_aggiornamento": "2025-04-25"
+        "url": "https://www.mase.gov.it/pagina/biometano",
+        "data_aggiornamento": "2026-04-27"
       }
     ],
     "europa": [
       {
         "id": "NORM-EU-BIO-001",
-        "titolo": "Direttiva (UE) 2018/2001 - Energie rinnovabili",
-        "tipo": "Direttiva UE",
-        "anno": 2018,
-        "descrizione": "Quadro legislativo per l'energia rinnovabile inclusi biocarburanti",
+        "titolo": "Piano REPowerEU - Biomethane Action Plan",
+        "tipo": "Piano Strategico UE",
+        "anno": 2022,
+        "descrizione": "Iniziativa della Commissione Europea per aumentare drasticamente la produzione di biometano al fine di ridurre la dipendenza dai combustibili fossili russi.",
         "punti_principali": [
-          "Obiettivo del 42.5% di rinnovabili entro 2030",
-          "Inclusione di biogas e biocarburanti avanzati",
-          "Criteri di sostenibilità ambientale",
-          "Riduzione rischio di ILUC (Indirect Land Use Change)"
+          "Obiettivo di produzione di 35 miliardi di metri cubi (bcm) di biometano entro il 2030",
+          "Creazione di un partenariato industriale per il biometano",
+          "Semplificazione delle procedure autorizzative per nuovi impianti",
+          "Sviluppo di infrastrutture di rete compatibili con il biometano"
         ],
-        "url": "https://eur-lex.europa.eu/legal-content/IT/TXT/?uri=CELEX:32018L2001",
-        "data_aggiornamento": "2025-04-25"
+        "url": "https://energy.ec.europa.eu/topics/renewable-energy/bioenergy/biomethane_en",
+        "data_aggiornamento": "2026-04-27"
       }
     ]
   },
   "fonti_ufficiali": [
     {
-      "nome": "European Biogas Association",
-      "url": "https://www.europeanbiogas.eu/",
-      "tipo": "Associazione europea",
-      "descrizione": "Associazione europea dei produttori di biogas"
+      "nome": "GSE - Gestore Servizi Energetici",
+      "url": "https://www.gse.it/servizi-per-te/fonti-rinnovabili/biometano",
+      "tipo": "Ente Pubblico Nazionale",
+      "descrizione": "Dati ufficiali, incentivi e normative sulla produzione di biometano in Italia."
     },
     {
-      "nome": "IRENA - Agenzia internazionale rinnovabili",
-      "url": "https://www.irena.org/",
-      "tipo": "Agenzia internazionale",
-      "descrizione": "Dati e statistiche su energie rinnovabili"
+      "nome": "European Biogas Association (EBA)",
+      "url": "https://www.europeanbiogas.eu/",
+      "tipo": "Associazione Europea",
+      "descrizione": "Mappe statistiche (Biomethane Map) e report sul settore del biogas in Europa."
     }
   ]
 }
