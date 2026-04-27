@@ -156,6 +156,50 @@
       "url": "https://eur-lex.europa.eu/legal-content/IT/TXT/?uri=CELEX:32022R0869"
     },
     {
+      "id": "NORM-EU-DC-001",
+      "titolo": "Direttiva sull'Efficienza Energetica - EED (UE 2023/1791)",
+      "giurisdizione": "europa",
+      "anno": 2023,
+      "stato": "vigente",
+      "fonti_applicabili": ["Data Center", "Cogenerazione"],
+      "descrizione": "Prima normativa UE specifica per l'efficienza dei Data Center.",
+      "punti_principali": ["Reporting energetico obbligatorio per DC > 500 kW", "Banca dati europea su consumi, PUE e uso acqua (WUE)", "Promozione del recupero del calore residuo"],
+      "url": "https://eur-lex.europa.eu/legal-content/IT/TXT/?uri=CELEX:32023L1791"
+    },
+    {
+      "id": "NORM-EU-DC-002",
+      "titolo": "Direttiva CSRD (UE 2022/2464)",
+      "giurisdizione": "europa",
+      "anno": 2022,
+      "stato": "vigente",
+      "fonti_applicabili": ["Data Center", "Idrogeno", "Biocarburanti e Biogas"],
+      "descrizione": "Obbligo di reporting ESG (Environmental, Social, Governance) per le grandi aziende.",
+      "punti_principali": ["Rendicontazione di emissioni e consumo energetico IT", "Impatto diretto sugli operatori cloud e colocation"],
+      "url": "https://eur-lex.europa.eu/legal-content/IT/TXT/?uri=CELEX:32022L2464"
+    },
+    {
+      "id": "NORM-EU-DC-003",
+      "titolo": "Direttiva NIS2 (UE 2022/2555)",
+      "giurisdizione": "europa",
+      "anno": 2022,
+      "stato": "vigente",
+      "fonti_applicabili": ["Data Center", "Nucleare", "Idrogeno"],
+      "descrizione": "Rafforzamento della resilienza digitale e cybersecurity europea.",
+      "punti_principali": ["Data center classificati come infrastrutture critiche", "Gestione del rischio e notifica tempestiva incidenti"],
+      "url": "https://eur-lex.europa.eu/legal-content/IT/TXT/?uri=CELEX:32022L2555"
+    },
+    {
+      "id": "NORM-EU-DC-004",
+      "titolo": "Regolamento Ecodesign (UE 2019/424)",
+      "giurisdizione": "europa",
+      "anno": 2019,
+      "stato": "vigente",
+      "fonti_applicabili": ["Data Center"],
+      "descrizione": "Requisiti di progettazione ecocompatibile per server e archiviazione dati.",
+      "punti_principali": ["Efficienza energetica minima dell'hardware", "Riparabilità e riciclabilità dei componenti IT"],
+      "url": "https://eur-lex.europa.eu/legal-content/IT/TXT/?uri=CELEX:32019R0424"
+    },
+    {
       "id": "NORM-IT-001",
       "titolo": "D.Lgs. 9 gennaio 2026, n. 5",
       "giurisdizione": "italia",
@@ -272,6 +316,63 @@
       "descrizione": "Normative tecniche per l'immissione e il trasporto di idrogeno nelle reti gas.",
       "punti_principali": ["Regole di blending H2-Gas naturale", "Sperimentazioni su trasporto e distribuzione"],
       "url": "https://www.arera.it/atti-e-provvedimenti/dettaglio/24/447-24"
+    },
+    {
+      "id": "NORM-IT-DC-001",
+      "titolo": "D.Lgs. 4 settembre 2024, n. 138 (Recepimento NIS 2)",
+      "giurisdizione": "italia",
+      "anno": 2024,
+      "stato": "vigente",
+      "fonti_applicabili": ["Data Center", "Nucleare", "Idrogeno", "Cogenerazione"],
+      "descrizione": "Il pilastro della cybersecurity nazionale che recepisce la direttiva europea NIS 2.",
+      "punti_principali": [
+        "Include i Data Center tra i 'Soggetti Essenziali' o 'Importanti'",
+        "Obblighi di gestione del rischio e notifica incidenti entro 24/72 ore",
+        "Sanzioni severe per gli organi direttivi in caso di mancata conformità",
+        "Supervisione diretta dell'Agenzia per la Cybersicurezza Nazionale (ACN)"
+      ],
+      "url": "https://www.gazzettaufficiale.it/eli/id/2024/10/01/24G00155/sg"
+    },
+    {
+      "id": "NORM-IT-DC-002",
+      "titolo": "Normativa Ambientale (VIA e AIA)",
+      "giurisdizione": "italia",
+      "anno": 2006,
+      "stato": "vigente",
+      "fonti_applicabili": ["Data Center", "Biocarburanti e Biogas", "Idrogeno"],
+      "descrizione": "Testo Unico Ambientale per le autorizzazioni di grandi cantieri industriali.",
+      "punti_principali": ["Valutazione Impatto Ambientale (VIA) per mega-datacenter", "Controllo su consumi idrici (raffreddamento) ed emissioni diesel (generatori di backup)"],
+      "url": "https://va.mite.gov.it/it-IT/DatiEStrumenti/Normativa"
+    },
+    {
+      "id": "NORM-IT-DC-003",
+      "titolo": "Legge 28 giugno 2024, n. 90 (Rafforzamento Cybersicurezza)",
+      "giurisdizione": "italia",
+      "anno": 2024,
+      "stato": "vigente",
+      "fonti_applicabili": ["Data Center"],
+      "descrizione": "Nuova legge nazionale per il rafforzamento della cybersicurezza e il contrasto ai reati informatici.",
+      "punti_principali": [
+        "Inasprimento delle pene per reati informatici e attacchi a infrastrutture critiche",
+        "Obblighi di resilienza per le Pubbliche Amministrazioni e fornitori strategici (Cloud/DC)",
+        "Potenziamento delle funzioni dell'ACN come autorità di controllo"
+      ],
+      "url": "https://www.gazzettaufficiale.it/eli/id/2024/07/02/24G00108/SG"
+    },
+    {
+      "id": "NORM-IT-DC-004",
+      "titolo": "DL 82/2021 e Perimetro di Sicurezza Nazionale Cibernetica",
+      "giurisdizione": "italia",
+      "anno": 2021,
+      "stato": "vigente",
+      "fonti_applicabili": ["Data Center", "Nucleare", "Idrogeno"],
+      "descrizione": "Istituzione dell'ACN e definizione delle infrastrutture critiche per la sicurezza dello Stato.",
+      "punti_principali": [
+        "Obbligo di scrutinio tecnologico per gli acquisti di hardware e software strategici",
+        "Notifica preventiva di incidenti che impattano la sicurezza nazionale",
+        "Integrazione dei data center nel 'Perimetro di Sicurezza Nazionale'"
+      ],
+      "url": "https://www.camera.it/temiap/documentazione/temi/pdf/1286457.pdf?_1652864686374"
     }
   ]
 }

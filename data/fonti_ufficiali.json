@@ -56,6 +56,20 @@
       "tipo": "Partenariato Pubblico-Privato UE",
       "descrizione": "Iniziativa UE per supportare ricerca, sviluppo tecnologico e progetti dimostrativi (Hydrogen Valleys).",
       "fonti_applicabili": ["Idrogeno"]
+    },
+    {
+      "nome": "IEA - International Energy Agency (Data Centres)",
+      "url": "https://www.iea.org/energy-system/buildings/data-centres-and-data-transmission-networks",
+      "tipo": "Agenzia Internazionale",
+      "descrizione": "Monitoraggio globale dei consumi elettrici, dell'efficienza e dell'impronta carbonica dell'infrastruttura IT globale.",
+      "fonti_applicabili": ["Data Center"]
+    },
+    {
+      "nome": "ACN - Agenzia per la Cybersicurezza Nazionale",
+      "url": "https://www.acn.gov.it",
+      "tipo": "Agenzia Governativa (Italia)",
+      "descrizione": "Promuove e verifica la resilienza delle infrastrutture digitali critiche in Italia (NIS2).",
+      "fonti_applicabili": ["Data Center"]
     }
   ]
 }

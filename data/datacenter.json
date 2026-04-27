@@ -1,132 +1,48 @@
 {
   "tematica": "Data Center",
-  "descrizione": "Progetti e normative relative ai data center e infrastrutture digitali",
+  "descrizione": "Infrastrutture digitali critiche, colocation campus e hyperscaler. Focus sull'efficienza energetica (PUE), raffreddamento sostenibile e alimentazione da fonti rinnovabili.",
+  "ultima_modifica": "2026-04-27",
+  "statistiche": {
+    "italia": 164,
+    "europa": 3250,
+    "mondo": 10800
+  },
   "progetti": {
     "italia": [
-      {
-        "id": "DC-IT-001",
-        "nome": "Polo Digitale Torino",
-        "regione": "Piemonte",
-        "capacita_mw": 50,
-        "stato": "attivo",
-        "descrizione": "Data center sostenibile con raffreddamento a libera aria",
-        "investimento_milioni_euro": 200,
-        "luogo": "Torino",
-        "lat": 45.0707,
-        "lon": 7.6869,
-        "url": "https://example.com/dc-torino",
-        "data_aggiornamento": "2025-04-25"
-      },
-      {
-        "id": "DAT-IT-EXTRA-1",
-        "nome": "Progetto Data Center Italia 1",
-        "regione": "Italia",
-        "capacita_mw": 10,
-        "stato": "attivo",
-        "descrizione": "Progetto di data center in Italia",
-        "investimento_milioni_euro": 20,
-        "luogo": "Roma",
-        "lat": 41.9028,
-        "lon": 12.4964,
-        "url": "https://www.gse.it/",
-        "data_aggiornamento": "2026-04-25T14:54:20.814854"
-      },
-      {
-        "id": "DAT-IT-EXTRA-2",
-        "nome": "Progetto Data Center Italia 2",
-        "regione": "Italia",
-        "capacita_mw": 15,
-        "stato": "attivo",
-        "descrizione": "Progetto di data center in Italia",
-        "investimento_milioni_euro": 30,
-        "luogo": "Roma",
-        "lat": 41.9028,
-        "lon": 12.4964,
-        "url": "https://www.gse.it/",
-        "data_aggiornamento": "2026-04-25T14:54:20.814863"
-      }
+      { "id": "DC-IT-01", "nome": "Global Cloud Data Center (Aruba)", "regione": "Lombardia", "capacita_mw": 90, "stato": "attivo", "descrizione": "Il più grande campus d'Italia, alimentato al 100% da rinnovabili (idroelettrico e fotovoltaico).", "luogo": "Ponte San Pietro (BG)", "lat": 45.6983, "lon": 9.5855, "url": "https://datacenter.aruba.it" },
+      { "id": "DC-IT-02", "nome": "Equinix ML5", "regione": "Lombardia", "capacita_mw": 15, "stato": "attivo", "descrizione": "Hub strategico di interconnessione (IBX) a Milano, con design ad alta efficienza energetica e PUE ottimizzato.", "luogo": "Milano", "lat": 45.4851, "lon": 9.1124, "url": "https://www.equinix.it" },
+      { "id": "DC-IT-03", "nome": "Data4 Milan Campus", "regione": "Lombardia", "capacita_mw": 120, "stato": "attivo", "descrizione": "Campus hyperscale a Cornaredo, tra i più grandi d'Europa, con massicci investimenti nell'espansione e nell'efficienza.", "luogo": "Cornaredo (MI)", "lat": 45.4988, "lon": 9.0250, "url": "https://www.data4group.com" },
+      { "id": "DC-IT-04", "nome": "AWS Europe (Milan) Region", "regione": "Lombardia", "capacita_mw": 50, "stato": "attivo", "descrizione": "Infrastruttura cloud di Amazon, alimentata da contratti PPA solari in Italia.", "luogo": "Milano", "lat": 45.4642, "lon": 9.1900, "url": "https://aws.amazon.com/it/local/italy/" },
+      { "id": "DC-IT-05", "nome": "STACK Infrastructure MIL01", "regione": "Lombardia", "capacita_mw": 50, "stato": "attivo", "descrizione": "Campus di Siziano, polo fondamentale per il cloud computing con attenzione al recupero idrico.", "luogo": "Siziano (PV)", "lat": 45.3181, "lon": 9.2069, "url": "https://www.stackinfra.com" },
+      { "id": "DC-IT-06", "nome": "Aruba Hyper Cloud Roma", "regione": "Lazio", "capacita_mw": 30, "stato": "costruzione", "descrizione": "Nuovo maxi-polo tecnologico al Tecnopolo Tiburtino, progettato secondo gli standard ecodesign UE.", "luogo": "Roma", "lat": 41.9333, "lon": 12.6000, "url": "https://datacenter.aruba.it" },
+      { "id": "DC-IT-07", "nome": "Google Cloud Region Turin", "regione": "Piemonte", "capacita_mw": 20, "stato": "attivo", "descrizione": "Regione cloud in partnership con TIM Enterprise e Intesa Sanpaolo.", "luogo": "Torino", "lat": 45.0703, "lon": 7.6868, "url": "https://cloud.google.com" },
+      { "id": "DC-IT-08", "nome": "Cineca (Supercomputer Leonardo)", "regione": "Emilia-Romagna", "capacita_mw": 10, "stato": "attivo", "descrizione": "Ospita uno dei supercomputer più potenti del mondo, raffreddato ad acqua calda per massima efficienza (Direct Liquid Cooling).", "luogo": "Bologna", "lat": 44.4949, "lon": 11.3426, "url": "https://www.cineca.it" },
+      { "id": "DC-IT-09", "nome": "Sparkle Sicily Hub", "regione": "Sicilia", "capacita_mw": 5, "stato": "attivo", "descrizione": "Hub strategico nel Mediterraneo per l'atterraggio dei cavi sottomarini intercontinentali.", "luogo": "Palermo", "lat": 38.1157, "lon": 13.3615, "url": "https://www.tisparkle.com" },
+      { "id": "DC-IT-10", "nome": "Vantage Data Centers MXP1", "regione": "Lombardia", "capacita_mw": 32, "stato": "attivo", "descrizione": "Campus hyperscale vicino a Malpensa, alimentato interamente da fonti rinnovabili.", "luogo": "Novate Milanese (MI)", "lat": 45.5333, "lon": 9.1333, "url": "https://vantage-dc.com" }
     ],
     "europa": [
-      {
-        "id": "DC-EU-001",
-        "nome": "Google Data Center Finlandia",
-        "paese": "Finlandia",
-        "capacita_mw": 120,
-        "stato": "attivo",
-        "descrizione": "Data center raffreddato naturalmente",
-        "investimento_milioni_euro": 500,
-        "luogo": "Hamina",
-        "lat": 60.5695,
-        "lon": 27.2021,
-        "url": "https://www.google.com/about/datacenters/locations/hamina/",
-        "data_aggiornamento": "2025-04-25"
-      }
+      { "id": "DC-EU-01", "nome": "Google Hamina Data Center", "paese": "Finlandia", "capacita_mw": 150, "stato": "attivo", "descrizione": "Ricavato da un'ex cartiera, utilizza l'acqua gelida del Mar Baltico per un raffreddamento a zero emissioni.", "lat": 60.5333, "lon": 27.1833, "url": "https://sustainability.google" },
+      { "id": "DC-EU-02", "nome": "Lefdal Mine Datacenter", "paese": "Norvegia", "capacita_mw": 200, "stato": "attivo", "descrizione": "Situato in una miniera sotterranea, raffreddato dall'acqua dei fiordi. Uno dei più verdi al mondo.", "lat": 61.9167, "lon": 5.4167, "url": "https://www.lefdalmine.com" },
+      { "id": "DC-EU-03", "nome": "Meta Luleå Data Center", "paese": "Svezia", "capacita_mw": 120, "stato": "attivo", "descrizione": "Sfrutta l'aria artica svedese per il free-cooling e l'energia idroelettrica locale.", "lat": 65.5848, "lon": 22.1567, "url": "https://sustainability.fb.com" },
+      { "id": "DC-EU-04", "nome": "Equinix AM4", "paese": "Paesi Bassi", "capacita_mw": 40, "stato": "attivo", "descrizione": "Torre dati iconica ad Amsterdam (Science Park) che immette il calore residuo nella rete di teleriscaldamento cittadina.", "lat": 52.3550, "lon": 4.9540, "url": "https://www.equinix.nl" },
+      { "id": "DC-EU-05", "nome": "Interxion (Digital Realty) FRA1", "paese": "Germania", "capacita_mw": 100, "stato": "attivo", "descrizione": "Nel cuore dell'hub di Francoforte (FLAP), punto centrale per l'internet europeo.", "lat": 50.1109, "lon": 8.6821, "url": "https://www.digitalrealty.com" },
+      { "id": "DC-EU-06", "nome": "Green Mountain SVG1", "paese": "Norvegia", "capacita_mw": 25, "stato": "attivo", "descrizione": "Costruito in un ex deposito di munizioni NATO, PUE bassissimo grazie all'acqua profonda del fiordo.", "lat": 59.0560, "lon": 5.7330, "url": "https://greenmountain.no" },
+      { "id": "DC-EU-07", "nome": "Apple Viborg Data Center", "paese": "Danimarca", "capacita_mw": 50, "stato": "attivo", "descrizione": "Alimentato al 100% da rinnovabili, recupera il calore a vantaggio delle abitazioni locali.", "lat": 56.4500, "lon": 9.4000, "url": "https://www.apple.com" },
+      { "id": "DC-EU-08", "nome": "Telehouse London Docklands", "paese": "UK", "capacita_mw": 73, "stato": "attivo", "descrizione": "Polo nevralgico del traffico dati britannico, con architettura multi-piano ad altissima densità.", "lat": 51.5081, "lon": -0.0051, "url": "https://www.telehouse.net" },
+      { "id": "DC-EU-09", "nome": "Data4 Paris-Saclay", "paese": "Francia", "capacita_mw": 150, "stato": "attivo", "descrizione": "Enorme campus a sud di Parigi, trasforma un sito industriale storico in un hub digitale sostenibile.", "lat": 48.6500, "lon": 2.2500, "url": "https://www.data4group.com" },
+      { "id": "DC-EU-10", "nome": "Verne Global", "paese": "Islanda", "capacita_mw": 40, "stato": "attivo", "descrizione": "Specializzato in calcolo intensivo (AI e criptovalute), 100% energia geotermica e idroelettrica islandese.", "lat": 63.9833, "lon": -22.5333, "url": "https://verneglobal.com" }
     ],
     "mondo": [
-      {
-        "id": "DC-WORLD-001",
-        "nome": "Meta Data Center Iowa",
-        "paese": "USA",
-        "capacita_mw": 200,
-        "stato": "attivo",
-        "descrizione": "Uno dei più grandi data center al mondo",
-        "investimento_milioni_euro": 1000,
-        "luogo": "Iowa",
-        "lat": 42.1015,
-        "lon": -93.2105,
-        "url": "https://example.com/meta-iowa",
-        "data_aggiornamento": "2025-04-25"
-      }
+      { "id": "DC-W-01", "nome": "Data Center Alley (Ashburn)", "paese": "USA", "capacita_mw": 2500, "stato": "attivo", "descrizione": "Loudoun County in Virginia: qui transita il 70% del traffico internet globale. Densità ineguagliabile.", "lat": 39.0438, "lon": -77.4874, "url": "https://biz.loudoun.gov" },
+      { "id": "DC-W-02", "nome": "The Citadel (Switch)", "paese": "USA", "capacita_mw": 1000, "stato": "attivo", "descrizione": "Il campus data center più grande del mondo nel deserto del Nevada, 100% energia solare.", "lat": 39.5333, "lon": -119.5000, "url": "https://www.switch.com" },
+      { "id": "DC-W-03", "nome": "Inner Mongolia Info Park (China Telecom)", "paese": "Cina", "capacita_mw": 150, "stato": "attivo", "descrizione": "Campus gigantesco per i servizi cloud asiatici, sfrutta il clima freddo della regione.", "lat": 40.8167, "lon": 111.6500, "url": "https://www.chinatelecom-h.com" },
+      { "id": "DC-W-04", "nome": "Google The Dalles", "paese": "USA", "capacita_mw": 150, "stato": "attivo", "descrizione": "Storico data center dell'Oregon, situato strategicamente vicino a enormi dighe idroelettriche.", "lat": 45.6000, "lon": -121.1833, "url": "https://sustainability.google" },
+      { "id": "DC-W-05", "nome": "Microsoft Project Natick", "paese": "Oceano", "capacita_mw": 1, "stato": "ricerca", "descrizione": "Progetto di ricerca per data center sottomarini modulari, zero uso di acqua potabile e raffreddamento naturale.", "lat": 58.9833, "lon": -2.9667, "url": "https://natick.research.microsoft.com" },
+      { "id": "DC-W-06", "nome": "AWS Cloud Cape Town", "paese": "Sudafrica", "capacita_mw": 20, "stato": "attivo", "descrizione": "Prima regione AWS in Africa, pioniera nell'uso di PPA rinnovabili in reti elettriche complesse.", "lat": -33.9249, "lon": 18.4241, "url": "https://aws.amazon.com" },
+      { "id": "DC-W-07", "nome": "Kolos Data Center", "paese": "Norvegia", "capacita_mw": 1000, "stato": "progetto", "descrizione": "Punta a diventare la fortezza verde dei dati a livello globale all'interno del circolo polare artico.", "lat": 68.4333, "lon": 17.0000, "url": "https://kolos.com" },
+      { "id": "DC-W-08", "nome": "NextDC S3", "paese": "Australia", "capacita_mw": 80, "stato": "attivo", "descrizione": "Data center di Sydney focalizzato su resilienza estrema (Tier IV) ed efficienza idrica nel clima australiano.", "lat": -33.8150, "lon": 151.1800, "url": "https://www.nextdc.com" },
+      { "id": "DC-W-09", "nome": "Yotta NM1", "paese": "India", "capacita_mw": 50, "stato": "attivo", "descrizione": "Il più grande data center Tier IV dell'Asia, a Mumbai, supporta la colossale digitalizzazione indiana.", "lat": 18.9667, "lon": 73.0667, "url": "https://yotta.com" },
+      { "id": "DC-W-10", "nome": "Meta Prineville", "paese": "USA", "capacita_mw": 180, "stato": "attivo", "descrizione": "Pioniere dell'Open Compute Project, design open-source per l'efficienza hardware.", "lat": 44.3000, "lon": -120.8333, "url": "https://sustainability.fb.com" }
     ]
-  },
-  "normative": {
-    "italia": [
-      {
-        "id": "NORM-IT-DC-001",
-        "titolo": "Strategia per la Trasformazione Digitale",
-        "tipo": "Piano Strategico",
-        "anno": 2022,
-        "descrizione": "Piano nazionale per lo sviluppo di infrastrutture digitali sostenibili",
-        "punti_principali": [
-          "Investimenti in infrastrutture digitali",
-          "Cloud computing e servizi digitali",
-          "Sicurezza cibernetica",
-          "Efficienza energetica dei data center"
-        ],
-        "url": "https://www.agid.gov.it/",
-        "data_aggiornamento": "2025-04-25"
-      }
-    ],
-    "europa": [
-      {
-        "id": "NORM-EU-DC-001",
-        "titolo": "Digital Europe Programme (DEP)",
-        "tipo": "Programma europeo",
-        "anno": 2021,
-        "descrizione": "Programma decennale per il rafforzamento dei servizi digitali europei",
-        "punti_principali": [
-          "Sviluppo di supercomputer europei",
-          "Infrastrutture cloud sovrane",
-          "Intelligenza artificiale e cibersicurezza",
-          "Competenze digitali"
-        ],
-        "url": "https://digital-strategy.ec.europa.eu/en",
-        "data_aggiornamento": "2025-04-25"
-      }
-    ]
-  },
-  "fonti_ufficiali": [
-    {
-      "nome": "AGID - Agenzia per l'Italia Digitale",
-      "url": "https://www.agid.gov.it/",
-      "tipo": "Agenzia italiana",
-      "descrizione": "Agenzia italiana per l'agenda digitale"
-    },
-    {
-      "nome": "European Commission - Digital",
-      "url": "https://digital-strategy.ec.europa.eu/",
-      "tipo": "Istituzione europea",
-      "descrizione": "Strategia digitale europea"
-    }
-  ]
+  }
 }
