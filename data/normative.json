@@ -90,6 +90,22 @@
       "url": "https://commission.europa.eu/strategy-and-policy/priorities-2019-2024/european-green-deal_it"
     },
     {
+      "id": "NORM-EU-007",
+      "titolo": "Net-Zero Industry Act - NZIA (Regolamento UE 2024/1735)",
+      "giurisdizione": "europa",
+      "anno": 2024,
+      "stato": "vigente",
+      "fonti_applicabili": ["Biocarburanti e Biogas", "Idrogeno", "Nucleare", "Geotermico", "Cogenerazione"],
+      "descrizione": "Regolamento pilastro del Green Deal Industrial Plan per rafforzare l'ecosistema manifatturiero europeo delle tecnologie a zero emissioni nette.",
+      "punti_principali": [
+        "Obiettivo di produrre in UE almeno il 40% del fabbisogno di tecnologie net-zero entro il 2030",
+        "Semplificazione e accelerazione drastica degli iter autorizzativi (permitting)",
+        "Creazione dei 'Net-Zero Strategic Projects' con accesso prioritario ai finanziamenti",
+        "Inclusione di requisiti di resilienza e sostenibilità negli appalti pubblici e nelle aste"
+      ],
+      "url": "https://eur-lex.europa.eu/legal-content/IT/TXT/?uri=CELEX:32024R1735"
+    },
+    {
       "id": "NORM-EU-NUC-001",
       "titolo": "Trattato Euratom (1957)",
       "giurisdizione": "europa",
