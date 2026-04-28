@@ -273,7 +273,7 @@
       "giurisdizione": "italia",
       "anno": 2024,
       "stato": "vigente",
-      "fonti_applicabili": ["Biocarburanti e Biogas"],
+      "fonti_applicabili": ["Biocarburanti e Biogas", "Idrogeno"],
       "descrizione": "Sistema Nazionale di Certificazione (SNC) della sostenibilità.",
       "punti_principali": [
         "Sistema per certificare sostenibilità di biocarburanti, biometano e carburanti da carbonio riciclato",
